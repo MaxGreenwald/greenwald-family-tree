@@ -53,6 +53,7 @@ const PEOPLE = {
 
 
   // === GEN 3 - Great-Grandparents ===
+  bertha_ketay: { name: 'Bertha Ketay', initials: 'BK', rel: 'RELATIVE', branch: 'greenwald', gender: 'F' },
   frank_gw: { name: 'Frank Greenwald', initials: 'FG', rel: 'GREAT-GRANDFATHER', branch: 'greenwald', gender: 'M' },
   leah_w: { name: 'Leah Weinhaus', initials: 'LW', rel: 'GREAT-GRANDMOTHER', branch: 'weinhaus', gender: 'F' },
   sidney_g: { name: 'Sidney Gervitz', initials: 'SG', rel: 'GREAT-GRANDFATHER', branch: 'gervitz', gender: 'M' },
@@ -194,6 +195,7 @@ const PEOPLE = {
   arthur_w: { name: 'Arthur Wiles', initials: 'AW', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
   deidree_w: { name: 'Deidree Wiles', initials: 'DW', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'F' },
   danny_w: { name: 'Danny', initials: 'D', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
+  winn_c: { name: 'Winn', initials: 'W', rel: 'RELATIVE', branch: 'cohens' },
   peter_petach: { name: 'Peter Petach', initials: 'PP', rel: '2ND COUSIN ONCE REMOVED', branch: 'cohens', gender: 'M' },
 
   // Morris Greenwald descendants
@@ -231,6 +233,8 @@ const PEOPLE = {
   debbie_farkas: { name: 'Debbie Farkas', initials: 'DF', rel: '1ST COUSIN ONCE REMOVED', branch: 'greenwald', gender: 'F' },
   alan_farkas: { name: 'Alan Farkas', initials: 'AF', rel: '1ST COUSIN ONCE REMOVED', branch: 'greenwald', gender: 'M' },
   david_farkas: { name: 'David Farkas', initials: 'DF', rel: '1ST COUSIN ONCE REMOVED', branch: 'greenwald', gender: 'M' },
+  ora_enosh: { name: 'Ora Enosh', initials: 'OE', rel: 'RELATIVE', branch: 'greenwald', gender: 'F' },
+  aimee_weitz: { name: 'Aimee Weitz', initials: 'AW', rel: 'RELATIVE', branch: 'greenwald', gender: 'F' },
   avraham_st: { name: 'Avraham Steinmetz', initials: 'AS', rel: 'RELATIVE', branch: 'greenwald', gender: 'M' },
   esther_gw2: { name: 'Esther Greenwald', initials: 'EG', rel: 'HALF 1ST COUSIN ONCE REMOVED', branch: 'greenwald', gender: 'F' },
   mary_squires: { name: 'Mary Squires', initials: 'MS', rel: 'RELATIVE', branch: 'greenwald', gender: 'F' },
@@ -243,6 +247,7 @@ const PEOPLE = {
   jonah_gw: { name: 'Jonah', initials: 'J', rel: '2ND COUSIN', branch: 'greenwald', gender: 'M' },
   tali_st: { name: 'Tali Steinmetz', initials: 'TS', rel: 'HALF 2ND COUSIN', branch: 'greenwald', gender: 'F' },
   adi_st: { name: 'Adi Steinmetz', initials: 'AS', rel: 'HALF 2ND COUSIN', branch: 'greenwald', gender: 'M' },
+  matanya_st: { name: 'Matanya Steinmetz', initials: 'MS', rel: 'HALF 2ND COUSIN', branch: 'greenwald' },
   shiri_st: { name: 'Shiri Steinmetz', initials: 'SS', rel: 'HALF 2ND COUSIN', branch: 'greenwald', gender: 'F' },
 
   // Tolarsky descendants
@@ -300,7 +305,7 @@ const COUPLES = [
   ['murray', null, ['eric_h']], // [S3] Eric is from Murray's other marriage (half uncle)
   // Gen 3
   ['frank_gw', 'leah_w', ['suzanne_gw', 'gerald']], // [S5]
-  ['frank_gw', null, ['baruch_gw2']], // [S5] Baruch's mother is Bertha Ketay, not Leah (half great-uncle)
+  ['frank_gw', 'bertha_ketay', ['baruch_gw2']], // [S5] Baruch's mother is Bertha Ketay, not Leah (half great-uncle)
   ['sidney_g', 'sarah_e', ['sally_gidden', 'gerrie']], // [S2]
   ['herschel_h', 'rose_t', ['murray', 'maxine_h']], // [S3]
   ['charles_r', 'minnie_c', ['shirley_roberts', 'eleanor', 'norma_r', 'william_r', 'doris_r', 'ruth_robie', 'bruce_r', 'jane_r', 'martha_r', 'channing_r', 'ab_r']], // [S6][S1][S3][S2]
@@ -332,14 +337,14 @@ const COUPLES = [
   ['connie_singer', 'richard_simon', ['eliana_simon', 'benjamin_simon']],
 
   // Baruch Greenwald (Frank's son) [S4][S5]
-  ['baruch_gw2', null, ['odrea_gw', 'esther_gw2']],
+  ['baruch_gw2', 'ora_enosh', ['odrea_gw', 'esther_gw2']],
   ['odrea_gw', 'amichai_s', ['esther_shamep', 'tamar_shamep', 'haim_shamep']],
-  ['esther_gw2', 'avraham_st', ['tali_st', 'adi_st', 'shiri_st']],
+  ['esther_gw2', 'avraham_st', ['tali_st', 'adi_st', 'shiri_st', 'matanya_st']],
 
   // Suzanne Greenwald & Bruce Farkas [S5]
   ['suzanne_gw', 'bruce_farkas', ['david_farkas', 'alan_farkas', 'debbie_farkas']],
   ['david_farkas', 'mary_squires', ['jacob_farkas', 'shaina_ember']],
-  ['alan_farkas', null, ['amanda_farkas', 'andrew_farkas']],
+  ['alan_farkas', 'aimee_weitz', ['amanda_farkas', 'andrew_farkas']],
   ['debbie_farkas', 'mona_mcdonald', ['naomi_gw', 'jonah_gw']],
 
   // Kapstein [S2]
@@ -358,7 +363,7 @@ const COUPLES = [
   // Cohens descendants [S1][S3]
   ['james_c', 'kitty_c', ['norman_c', 'fulton_c', 'channing_c', 'walter_c']],
   ['channing_c', 'hazel_c', ['peter_petach']],
-  ['bertha_c', null, ['arthur_w', 'deidree_w', 'danny_w']],
+  ['bertha_c', 'winn_c', ['arthur_w', 'deidree_w', 'danny_w']],
 
   // Tolarsky descendants (not in the screenshots; unchanged)
   ['ira_diamond', null, ['bernard_d', 'edward_diamond']],

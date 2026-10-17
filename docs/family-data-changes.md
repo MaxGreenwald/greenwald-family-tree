@@ -38,3 +38,12 @@ Only links/labels the screenshots clearly show were changed. The snapshot test (
 max_kapstein 2ND GREAT-GRANDFATHER; joan_kapstein 1ST COUSIN TWICE REMOVED; polly_r_ga RELATIVE; ruth_robie and jane_r GREAT AUNT/UNCLE; pam_r, charlie_reeves, michael_reeves, e_reeves 1ST COUSIN ONCE REMOVED; channing_c, deidree_w, danny_w 1ST COUSIN TWICE REMOVED.
 
 After these changes, every connected person's computed relationship to Max matches their label.
+
+## People added (Max approved, Oct 17, 2026)
+Names and labels exactly as in the screenshots; unnamed spouses skipped.
+- **Bertha Ketay** (RELATIVE), Frank Greenwald's partner, Baruch's mother. [S5]
+- **Ora Enosh** (RELATIVE), Baruch's partner, mother of Odrea and Esther. [S5]
+- **Aimee Weitz** (RELATIVE), Alan Farkas's wife, mother of Amanda and Andrew. [S5]
+- **Winn** (RELATIVE), Bertha Cohens's husband, father of Arthur, Deidree (Debbie) and Danny. [S1, S3]
+- **Matanya Steinmetz** (HALF 2ND COUSIN), child of Esther Greenwald and Avraham Steinmetz. [S5]
+Gender left blank for Winn and Matanya (the screenshots don't say).
