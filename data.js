@@ -34,10 +34,10 @@ const PEOPLE = {
   elana_h: { name: 'Elana Hoffman', initials: 'EH', rel: 'HALF 1ST COUSIN', branch: 'hoffman', gender: 'F' },
 
   // === GEN 2 - Grandparents ===
-  gerald: { name: 'Gerald Greenwald', initials: 'GG', rel: 'GRANDFATHER', branch: 'gerald', gender: 'M' },
+  gerald: { name: 'Gerald Greenwald', initials: 'GG', rel: 'GRANDFATHER', branch: 'gerald', gender: 'M', links: [{ label: 'Profile (NNDB)', url: 'https://www.nndb.com/people/846/000127465/' }, { label: 'Profile (Prabook)', url: 'https://prabook.com/web/gerald.greenwald/1316209' }, { label: 'Bio (Greenbriar Equity Group)', url: 'https://www.greenbriar.com/team-member/gerald-greenwald-chair/' }] },
   gerrie: { name: 'Gigi Greenwald', initials: 'GG', rel: 'GRANDMOTHER', branch: 'gerald', gender: 'F' },
-  murray: { name: 'Murray Hoffman', initials: 'MH', rel: 'GRANDFATHER', branch: 'hoffman', gender: 'M' },
-  eleanor: { name: 'Eleanor Reeves', initials: 'ER', rel: 'GRANDMOTHER', branch: 'reeves', gender: 'F' },
+  murray: { name: 'Murray Hoffman', initials: 'MH', rel: 'GRANDFATHER', branch: 'hoffman', gender: 'M', born: 'Apr 15, 1924, Denver', died: 'Mar 23, 2018', links: [{ label: 'Obituary (Feldman Mortuary)', url: 'https://feldmanmortuary.com/tribute/details/3471/Murray-Hoffman/obituary.html' }, { label: 'Obituary (Intermountain Jewish News)', url: 'https://www.ijn.com/dr-murray-hoffman/' }, { label: 'Wedding notice: "Eleanor Reeves Wed To Dr. M. S. Hoffman", IJN, Dec 28, 1962', url: 'https://www.coloradohistoricnewspapers.org/?a=d&d=IJN19621228-01.2.75' }] },
+  eleanor: { name: 'Eleanor Reeves', initials: 'ER', rel: 'GRANDMOTHER', branch: 'reeves', gender: 'F', links: [{ label: 'Wedding notice: "Eleanor Reeves Wed To Dr. M. S. Hoffman", IJN, Dec 28, 1962', url: 'https://www.coloradohistoricnewspapers.org/?a=d&d=IJN19621228-01.2.75' }, { label: 'Obituary (Feldman Mortuary)', url: 'https://feldmanmortuary.com/tribute/details/3471/Murray-Hoffman/obituary.html' }, { label: 'Obituary of daughter Dorris (Reeves) Berger, 2016 (Brezniak)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/' }] },
 
   // Gerald's siblings (children of Frank & Leah)
   baruch_gw2: { name: 'Baruch Greenwald', initials: 'BG', rel: 'HALF GREAT UNCLE', branch: 'greenwald', gender: 'M' },
@@ -49,19 +49,19 @@ const PEOPLE = {
   shirley_roberts: { name: 'Shirley Hope Roberts (Cornwell)', initials: 'SR', rel: 'GREAT AUNT/UNCLE', branch: 'gervitz', gender: 'F' },
 
   // Husband of Murray's sister Maxine Hoffman
-  george_barber: { name: 'George Barber', initials: 'GB', rel: 'RELATIVE', branch: 'hoffman', gender: 'M' },
+  george_barber: { name: 'George Barber', initials: 'GB', rel: 'RELATIVE', branch: 'hoffman', gender: 'M', born: 'Nov 19, 1918, Denver', died: 'Mar 26, 2012', photo: 'photos/george_barber.jpg', photoSource: 'https://feldmanmortuary.com/tribute/details/2305/Gerson-Barter/obituary.html', links: [{ label: 'Obituary of Gerson Barter (Feldman Mortuary)', url: 'https://feldmanmortuary.com/tribute/details/2305/Gerson-Barter/obituary.html' }, { label: 'Obituary of Gerson Barter (Intermountain Jewish News)', url: 'https://www.ijn.com/gerson-barter/' }] },
 
 
   // === GEN 3 - Great-Grandparents ===
   bertha_ketay: { name: 'Bertha Ketay', initials: 'BK', rel: 'RELATIVE', branch: 'greenwald', gender: 'F' },
-  frank_gw: { name: 'Frank Greenwald', initials: 'FG', rel: 'GREAT-GRANDFATHER', branch: 'greenwald', gender: 'M' },
-  leah_w: { name: 'Leah Weinhaus', initials: 'LW', rel: 'GREAT-GRANDMOTHER', branch: 'weinhaus', gender: 'F' },
+  frank_gw: { name: 'Frank Greenwald', initials: 'FG', rel: 'GREAT-GRANDFATHER', branch: 'greenwald', gender: 'M', links: [{ label: 'Obituary of brother-in-law David Weinhaus, 2007 (St. Louis Jewish Light)', url: 'https://stljewishlight.org/obituaries/in-memory-of-150/' }, { label: 'Son Gerald Greenwald profile (Prabook)', url: 'https://prabook.com/web/gerald.greenwald/1316209' }] },
+  leah_w: { name: 'Leah Weinhaus', initials: 'LW', rel: 'GREAT-GRANDMOTHER', branch: 'weinhaus', gender: 'F', links: [{ label: 'Obituary of brother David Weinhaus, 2007 (St. Louis Jewish Light)', url: 'https://stljewishlight.org/obituaries/in-memory-of-150/' }, { label: 'Son Gerald Greenwald profile (Prabook)', url: 'https://prabook.com/web/gerald.greenwald/1316209' }] },
   sidney_g: { name: 'Sidney Gervitz', initials: 'SG', rel: 'GREAT-GRANDFATHER', branch: 'gervitz', gender: 'M' },
   sarah_e: { name: 'Sarah Eisenberg', initials: 'SE', rel: 'GREAT-GRANDMOTHER', branch: 'eisenberg', gender: 'F' },
   herschel_h: { name: 'Herschel (Harry) Hoffman', initials: 'HH', rel: 'GREAT-GRANDFATHER', branch: 'hoffman', gender: 'M', notes: 'Wolf/Hans Ruth' },
   rose_t: { name: 'Rose Tolarsky', initials: 'RT', rel: 'GREAT-GRANDPARENT', branch: 'tolarsky', gender: 'F' },
-  charles_r: { name: 'Charles Moses Reeves', initials: 'CR', rel: 'GREAT-GRANDFATHER', branch: 'reeves', gender: 'M', notes: 'fka Kapstein' },
-  minnie_c: { name: 'Minnie Cohens', initials: 'MC', rel: 'GREAT-GRANDPARENT', branch: 'cohens', gender: 'F' },
+  charles_r: { name: 'Charles Moses Reeves', initials: 'CR', rel: 'GREAT-GRANDFATHER', branch: 'reeves', gender: 'M', notes: 'fka Kapstein', links: [{ label: 'WWI Statement of Military Service: "Kapstein, Charles Reeves" (Rhode Island State Archives)', url: 'https://sosri.access.preservica.com/uncategorized/IO_f42b9dbd-6f0c-42a3-b09c-0f3cc1f70ad4/' }, { label: 'Obituary of son Bruce Manning Reeves, 2024 (Central Maine)', url: 'https://www.centralmaine.com/2024/09/24/obituarybruce-manning-reeves-2/' }, { label: 'Obituary of daughter Dorris (Reeves) Berger, 2016 (Brezniak)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/' }] },
+  minnie_c: { name: 'Minnie Cohens', initials: 'MC', rel: 'GREAT-GRANDPARENT', branch: 'cohens', gender: 'F', links: [{ label: 'Obituary of son Bruce Manning Reeves, 2024 (Central Maine)', url: 'https://www.centralmaine.com/2024/09/24/obituarybruce-manning-reeves-2/' }, { label: 'Obituary of daughter Dorris (Reeves) Berger, 2016 (Brezniak)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/' }] },
 
   // Siblings of Frank Greenwald (children of Boruch & Keila)
   samuel_gw: { name: 'Samuel Greenwald', initials: 'SG', rel: '2ND GREAT AUNT/UNCLE', branch: 'greenwald', gender: 'M' },
@@ -104,8 +104,8 @@ const PEOPLE = {
   ed_glickman: { name: 'Ed Glickman', initials: 'EG', rel: 'RELATIVE', branch: 'tolarsky', gender: 'M', notes: 'first Glickman to emigrate' },
 
   // Siblings of Minnie Cohens (children of Samuel & Celia)
-  james_c: { name: 'James Cohens', initials: 'JC', rel: '2ND GREAT AUNT/UNCLE', branch: 'cohens', gender: 'M' },
-  kitty_c: { name: 'Kitty Cohens', initials: 'KC', rel: 'RELATIVE', branch: 'cohens', gender: 'F' },
+  james_c: { name: 'James Cohens', initials: 'JC', rel: '2ND GREAT AUNT/UNCLE', branch: 'cohens', gender: 'M', born: 'Sep 5, 1888', died: 'Mar 13, 1963', links: [{ label: 'Find a Grave: James Albert Cahners', url: 'https://www.findagrave.com/memorial/50206663/james_albert-cahners' }, { label: 'Obituary of son Walter James Cahners, 2016 (Brezniak)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/' }, { label: 'Son Norman Cahners (Wikipedia)', url: 'https://en.wikipedia.org/wiki/Norman_Cahners' }] },
+  kitty_c: { name: 'Kitty Cohens', initials: 'KC', rel: 'RELATIVE', branch: 'cohens', gender: 'F', born: 'Jul 5, 1892', died: 'Dec 31, 1964', links: [{ label: 'Find a Grave: Katherine Louise Epstein Cahners', url: 'https://www.findagrave.com/memorial/50205959/katherine_louise-cahners' }, { label: 'Obituary of son Walter James Cahners, 2016 (Brezniak)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/' }] },
   sue_c: { name: 'Sue Cohens', initials: 'SC', rel: '2ND GREAT AUNT', branch: 'cohens', gender: 'F' },
   lee_c: { name: 'Lee Cohens', initials: 'LC', rel: '2ND GREAT UNCLE', branch: 'cohens', gender: 'M' },
   milton_c: { name: 'Milton', initials: 'M', rel: 'RELATIVE', branch: 'cohens', gender: 'M' },
@@ -115,8 +115,8 @@ const PEOPLE = {
   // === GEN 4 - 2nd Great-Grandparents ===
   boruch_gw: { name: 'Boruch Greenwald (Grinvald)', initials: 'BG', rel: '2ND GREAT-GRANDFATHER', branch: 'greenwald', gender: 'M' },
   keila_f: { name: 'Keila (Kala) Furer', initials: 'KF', rel: '2ND GREAT-GRANDMOTHER', branch: 'greenwald', gender: 'F' },
-  gedalyah_w: { name: 'Gedalyah Weinhaus', initials: 'GW', rel: '2ND GREAT-GRANDFATHER', branch: 'weinhaus', gender: 'M', notes: 'Philadelphia Cantor' },
-  sonya_k: { name: 'Sonya Kaplan', initials: 'SK', rel: '2ND GREAT-GRANDPARENT', branch: 'weinhaus', gender: 'F' },
+  gedalyah_w: { name: 'Gedalyah Weinhaus', initials: 'GW', rel: '2ND GREAT-GRANDFATHER', branch: 'weinhaus', gender: 'M', notes: 'Philadelphia Cantor', links: [{ label: 'Obituary of son David Weinhaus, 2007 (St. Louis Jewish Light)', url: 'https://stljewishlight.org/obituaries/in-memory-of-150/' }] },
+  sonya_k: { name: 'Sonya Kaplan', initials: 'SK', rel: '2ND GREAT-GRANDPARENT', branch: 'weinhaus', gender: 'F', links: [{ label: 'Obituary of son David Weinhaus, 2007 (St. Louis Jewish Light)', url: 'https://stljewishlight.org/obituaries/in-memory-of-150/' }] },
   sol: { name: 'Sol', initials: 'S', rel: '2ND GREAT-GRANDFATHER', branch: 'gervitz', gender: 'M' },
   fanny_sol: { name: 'Fanny', initials: 'F', rel: '2ND GREAT-GRANDMOTHER', branch: 'gervitz', gender: 'F' },
   joseph_e: { name: 'Joseph Eisenberg', initials: 'JE', rel: '2ND GREAT-GRANDFATHER', branch: 'eisenberg', gender: 'M' },
@@ -147,12 +147,12 @@ const PEOPLE = {
   norma_r: { name: 'Norma Reeves', initials: 'NR', rel: 'GREAT AUNT', branch: 'reeves', gender: 'F' },
   william_r: { name: 'William (Billy) Reeves', initials: 'WR', rel: 'GREAT UNCLE', branch: 'reeves', gender: 'M' },
   ann_r: { name: 'Ann Reeves', initials: 'AR', rel: 'RELATIVE', branch: 'reeves', gender: 'F' },
-  doris_r: { name: 'Doris Reeves', initials: 'DR', rel: 'GREAT AUNT', branch: 'reeves', gender: 'F' },
+  doris_r: { name: 'Doris Reeves', initials: 'DR', rel: 'GREAT AUNT', branch: 'reeves', gender: 'F', born: '1926', died: 'Dec 22, 2016', links: [{ label: 'Obituary: Dorris (Reeves) Berger (Brezniak Funeral Directors)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/' }] },
   edward_p: { name: 'Edward Pasternak', initials: 'EP', rel: 'RELATIVE', branch: 'reeves', gender: 'M' },
   ruth_robie: { name: 'Ruth Olive (Robie) Reeves', initials: 'RR', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'F' },
   andy_r: { name: 'Andy Reeves', initials: 'AR', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'M' },
   polly_r_ga: { name: 'Polly', initials: 'P', rel: 'RELATIVE', branch: 'reeves', gender: 'F' },
-  bruce_r: { name: 'Bruce', initials: 'B', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'M' },
+  bruce_r: { name: 'Bruce', initials: 'B', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'M', photo: 'photos/bruce_r.jpg', photoSource: 'https://www.centralmaine.com/2024/09/24/obituarybruce-manning-reeves-2/', links: [{ label: 'Obituary: Bruce Manning Reeves (Central Maine, Sep 24, 2024)', url: 'https://www.centralmaine.com/2024/09/24/obituarybruce-manning-reeves-2/' }, { label: 'Obituary of daughter Dorris (Reeves) Berger, 2016 (Brezniak)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/' }] },
   thomas_boyer: { name: 'Thomas Boyer', initials: 'TB', rel: 'RELATIVE', branch: 'reeves', gender: 'M' },
   jane_r: { name: 'Jane', initials: 'J', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'F' },
   joseph_r: { name: 'Joseph', initials: 'J', rel: 'RELATIVE', branch: 'reeves', gender: 'M' },
@@ -187,11 +187,11 @@ const PEOPLE = {
   nell_lauritzen: { name: 'Nell Lauritzen', initials: 'NL', rel: 'ONCE REMOVED', branch: 'reeves', gender: 'F' },
 
   // Cohens descendants
-  norman_c: { name: 'Norman Cohens', initials: 'NC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
-  fulton_c: { name: 'Fulton Cohens', initials: 'FC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M', notes: 'died young' },
+  norman_c: { name: 'Norman Cohens', initials: 'NC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M', born: 'Jun 5, 1914, Bangor, Maine', died: 'Mar 14, 1986', photo: 'photos/norman_c.jpg', photoSource: 'https://www.findagrave.com/memorial/50225333/norman-lee-cahners', links: [{ label: 'Find a Grave: Norman Lee Cahners', url: 'https://www.findagrave.com/memorial/50225333/norman-lee-cahners' }, { label: 'Norman Cahners (Wikipedia)', url: 'https://en.wikipedia.org/wiki/Norman_Cahners' }, { label: 'Obituary (New York Times, Mar 18, 1986)', url: 'https://www.nytimes.com/1986/03/18/obituaries/norman-l-cahners.html' }, { label: 'Obituary of brother Walter James Cahners (Brezniak)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/' }] },
+  fulton_c: { name: 'Fulton Cohens', initials: 'FC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M', notes: 'died young', born: 'Jan 30, 1917', died: 'Mar 15, 1966', links: [{ label: 'Find a Grave: Fulton Irving Cahners', url: 'https://www.findagrave.com/memorial/49878080/fulton_irving-cahners' }, { label: 'Obituary of brother Walter James Cahners (Brezniak)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/' }] },
   hazel_c: { name: 'Hazel', initials: 'H', rel: 'RELATIVE', branch: 'cohens', gender: 'F' },
   channing_c: { name: 'Channing Cohens', initials: 'CC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
-  walter_c: { name: 'Walter Cohens', initials: 'WC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
+  walter_c: { name: 'Walter Cohens', initials: 'WC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M', died: 'Apr 11, 2016 (aged 90)', photo: 'photos/walter_c.jpg', photoSource: 'https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/', links: [{ label: 'Obituary: Walter James Cahners (Brezniak Funeral Directors)', url: 'https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/' }] },
   arthur_w: { name: 'Arthur Wiles', initials: 'AW', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
   deidree_w: { name: 'Deidree Wiles', initials: 'DW', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'F' },
   danny_w: { name: 'Danny', initials: 'D', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
@@ -282,7 +282,7 @@ const PEOPLE = {
   wesley_gard: { name: 'Wesley Gardenschwartz', initials: 'WG', rel: '2ND COUSIN ONCE REMOVED', branch: 'bloom', gender: 'M' },
 
   // Hoffman extended
-  maxine_h: { name: 'Maxine Hoffman', initials: 'MH', rel: 'GREAT AUNT/UNCLE', branch: 'hoffman', gender: 'F' },
+  maxine_h: { name: 'Maxine Hoffman', initials: 'MH', rel: 'GREAT AUNT/UNCLE', branch: 'hoffman', gender: 'F', links: [{ label: 'Obituary of husband Gerson Barter (Feldman Mortuary)', url: 'https://feldmanmortuary.com/tribute/details/2305/Gerson-Barter/obituary.html' }, { label: 'Obituary of husband Gerson Barter (IJN)', url: 'https://www.ijn.com/gerson-barter/' }, { label: 'Obituary of brother Murray Hoffman (Feldman Mortuary)', url: 'https://feldmanmortuary.com/tribute/details/3471/Murray-Hoffman/obituary.html' }] },
   bruce_barber: { name: 'Bruce Barber', initials: 'BB', rel: '1ST COUSIN ONCE REMOVED', branch: 'hoffman', gender: 'M' },
   mark_hoffman: { name: 'Mark Hoffman', initials: 'MH', rel: '1ST COUSIN ONCE REMOVED', branch: 'hoffman', gender: 'M' },
   jeff_h: { name: 'Jeff', initials: 'J', rel: '2ND COUSIN ONCE REMOVED', branch: 'hoffman', gender: 'M' },

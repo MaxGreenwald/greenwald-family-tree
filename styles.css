@@ -103,7 +103,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .card .close { position: absolute; top: 10px; right: 12px; border: 0; background: none; font-size: 26px; color: var(--muted); width: 40px; height: 40px; }
 .card .hero { display: flex; gap: 14px; align-items: center; margin-bottom: 12px; }
 .card .avatar { width: 68px; height: 68px; border-radius: 50%; display: grid; place-items: center; color: #fff; font: 700 22px system-ui; flex: none; overflow: hidden; }
-.card .avatar img { width: 100%; height: 100%; object-fit: cover; }
+.card .avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
 .card h2 { margin: 0; font: 600 22px/1.15 Georgia, serif; padding-right: 30px; }
 .card .tag { display: inline-block; margin-top: 6px; font-size: 11px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase;
   color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); padding: 3px 8px; border-radius: 999px; }
@@ -114,6 +114,9 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 4px 10px 4px 4px; font-size: 13px; }
 .chip .d { width: 22px; height: 22px; border-radius: 50%; color: #fff; display: grid; place-items: center; font-size: 9px; font-weight: 700; }
 .card .row, .dlg .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+.card .links { margin: 0; padding-left: 18px; font-size: 14px; display: grid; gap: 4px; }
+.card .links a, .card .photo-credit a { color: var(--accent); overflow-wrap: anywhere; }
+.card .photo-credit { margin: 8px 0 0; }
 .card .note { background: color-mix(in srgb, var(--gold) 14%, transparent); border-radius: 10px; padding: 8px 10px; font-size: 14px; }
 
 /* Dialogs */

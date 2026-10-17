@@ -37,3 +37,17 @@ test('relationship finder names close relatives correctly', () => {
   assert.strictEqual(F.kinTerm(1, 3, 'M'), 'grandnephew');
   assert.strictEqual(F.kinTerm(3, 1, 'F'), 'great-aunt');
 });
+
+test('links are {label,url} with https URLs, and photos exist on disk', () => {
+  const fs = require('node:fs'); const path = require('node:path');
+  Object.entries(PEOPLE).forEach(([id, p]) => {
+    if (p.links !== undefined) {
+      assert.ok(Array.isArray(p.links) && p.links.length, `${id}.links should be a non-empty array`);
+      p.links.forEach(l => { assert.ok(l.label && typeof l.label === 'string', `${id} link label`); assert.match(l.url, /^https?:\/\//, `${id} link url`); });
+    }
+    if (p.photo) {
+      assert.ok(fs.existsSync(path.join(__dirname, '..', p.photo)), `${id} photo missing: ${p.photo}`);
+      assert.match(p.photoSource || '', /^https?:\/\//, `${id} photo needs a photoSource URL`);
+    }
+  });
+});
