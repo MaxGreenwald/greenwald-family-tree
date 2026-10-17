@@ -1,0 +1,6 @@
+{
+  "name": "greenwald-family-tree",
+  "private": true,
+  "description": "Static family tree site. No build step: open index.html.",
+  "scripts": { "test": "node --test tests/" }
+}
