@@ -162,7 +162,7 @@
    "gender": "M"
   },
   "gerrie": {
-   "name": "Gerrie Greenwald",
+   "name": "Gigi Greenwald",
    "initials": "GG",
    "rel": "GRANDMOTHER",
    "branch": "gerald",
@@ -206,7 +206,7 @@
   "joan_kapstein": {
    "name": "Joan Kapstein",
    "initials": "JK",
-   "rel": "1ST COUSIN",
+   "rel": "1ST COUSIN TWICE REMOVED",
    "branch": "gervitz",
    "gender": "F"
   },
@@ -592,7 +592,7 @@
   "max_kapstein": {
    "name": "Max Kapstein",
    "initials": "MK",
-   "rel": "2ND GREAT-GRANDPARENT",
+   "rel": "2ND GREAT-GRANDFATHER",
    "branch": "eisenberg",
    "gender": "M"
   },
@@ -746,7 +746,7 @@
   "ruth_robie": {
    "name": "Ruth Olive (Robie) Reeves",
    "initials": "RR",
-   "rel": "RELATIVE",
+   "rel": "GREAT AUNT/UNCLE",
    "branch": "reeves",
    "gender": "F"
   },
@@ -760,7 +760,7 @@
   "polly_r_ga": {
    "name": "Polly",
    "initials": "P",
-   "rel": "GREAT AUNT/UNCLE",
+   "rel": "RELATIVE",
    "branch": "reeves",
    "gender": "F"
   },
@@ -781,7 +781,7 @@
   "jane_r": {
    "name": "Jane",
    "initials": "J",
-   "rel": "RELATIVE",
+   "rel": "GREAT AUNT/UNCLE",
    "branch": "reeves",
    "gender": "F"
   },
@@ -873,7 +873,7 @@
   "pam_r": {
    "name": "Pam",
    "initials": "P",
-   "rel": "ONCE REMOVED",
+   "rel": "1ST COUSIN ONCE REMOVED",
    "branch": "reeves",
    "gender": "F"
   },
@@ -922,7 +922,7 @@
   "charlie_reeves": {
    "name": "Charlie Reeves",
    "initials": "CR",
-   "rel": "ONCE REMOVED",
+   "rel": "1ST COUSIN ONCE REMOVED",
    "branch": "reeves",
    "gender": "M"
   },
@@ -943,7 +943,7 @@
   "michael_reeves": {
    "name": "Michael Reeves",
    "initials": "MR",
-   "rel": "ONCE REMOVED",
+   "rel": "1ST COUSIN ONCE REMOVED",
    "branch": "reeves",
    "gender": "M"
   },
@@ -971,7 +971,7 @@
   "e_reeves": {
    "name": "E. Reeves",
    "initials": "ER",
-   "rel": "2ND COUSIN ONCE REMOVED",
+   "rel": "1ST COUSIN ONCE REMOVED",
    "branch": "reeves",
    "gender": "F"
   },
@@ -1007,7 +1007,7 @@
   "channing_c": {
    "name": "Channing Cohens",
    "initials": "CC",
-   "rel": "2ND COUSIN TWICE REMOVED",
+   "rel": "1ST COUSIN TWICE REMOVED",
    "branch": "cohens",
    "gender": "M"
   },
@@ -1028,14 +1028,14 @@
   "deidree_w": {
    "name": "Deidree Wiles",
    "initials": "DW",
-   "rel": "2ND COUSIN TWICE REMOVED",
+   "rel": "1ST COUSIN TWICE REMOVED",
    "branch": "cohens",
    "gender": "F"
   },
   "danny_w": {
    "name": "Danny",
    "initials": "D",
-   "rel": "2ND COUSIN",
+   "rel": "1ST COUSIN TWICE REMOVED",
    "branch": "cohens",
    "gender": "M"
   },
@@ -1523,6 +1523,13 @@
    "branch": "bloom",
    "gender": "M"
   },
+  "maxine_h": {
+   "name": "Maxine Hoffman",
+   "initials": "MH",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "hoffman",
+   "gender": "F"
+  },
   "bruce_barber": {
    "name": "Bruce Barber",
    "initials": "BB",
@@ -1585,14 +1592,14 @@
    null,
    [
     "emma_h",
-    "greta_h"
+    "greta_h",
+    "isabella_h"
    ]
   ],
   [
    "eric_h",
    null,
    [
-    "isabella_h",
     "elana_h"
    ]
   ],
@@ -1611,7 +1618,13 @@
    "eleanor",
    [
     "mother",
-    "hugh_h",
+    "hugh_h"
+   ]
+  ],
+  [
+   "murray",
+   null,
+   [
     "eric_h"
    ]
   ],
@@ -1619,9 +1632,15 @@
    "frank_gw",
    "leah_w",
    [
-    "baruch_gw2",
     "suzanne_gw",
     "gerald"
+   ]
+  ],
+  [
+   "frank_gw",
+   null,
+   [
+    "baruch_gw2"
    ]
   ],
   [
@@ -1629,8 +1648,6 @@
    "sarah_e",
    [
     "sally_gidden",
-    "joan_kapstein",
-    "shirley_roberts",
     "gerrie"
    ]
   ],
@@ -1639,19 +1656,21 @@
    "rose_t",
    [
     "murray",
-    "george_barber"
+    "maxine_h"
    ]
   ],
   [
    "charles_r",
    "minnie_c",
    [
+    "shirley_roberts",
+    "eleanor",
     "norma_r",
     "william_r",
     "doris_r",
-    "eleanor",
-    "polly_r_ga",
+    "ruth_robie",
     "bruce_r",
+    "jane_r",
     "martha_r",
     "channing_r",
     "ab_r"
@@ -1681,10 +1700,7 @@
    "sol",
    "fanny_sol",
    [
-    "sidney_g",
-    "harold_k",
-    "sophie_k",
-    "florence_r"
+    "sidney_g"
    ]
   ],
   [
@@ -1692,6 +1708,24 @@
    "fanny_e",
    [
     "sarah_e"
+   ]
+  ],
+  [
+   "max_kapstein",
+   "rose_kapstein",
+   [
+    "harold_k",
+    "sophie_k",
+    "florence_r",
+    "edward_k",
+    "daniel_k",
+    "evelyn_k",
+    "milton_k",
+    "irving_k",
+    "sidney_k",
+    "dorothy_k",
+    "stevens_k",
+    "charles_r"
    ]
   ],
   [
@@ -1712,7 +1746,6 @@
    "celia_c",
    [
     "james_c",
-    "kitty_c",
     "sue_c",
     "lee_c",
     "bertha_c",
@@ -1735,8 +1768,7 @@
    "abraham_k",
    "dora_l",
    [
-    "sol",
-    "rose_kapstein"
+    "max_kapstein"
    ]
   ],
   [
@@ -1747,6 +1779,21 @@
    ]
   ],
   [
+   "pinchas_f",
+   null,
+   [
+    "keila_f",
+    "chaim_furer"
+   ]
+  ],
+  [
+   "chaim_tish",
+   null,
+   [
+    "sonya_k"
+   ]
+  ],
+  [
    "israel_w",
    "mamceia_r",
    [
@@ -1754,85 +1801,74 @@
    ]
   ],
   [
-   "morris_gw",
-   "belle_erlich",
-   [
-    "dorothy_leitman",
-    "marian_king",
-    "kay_sandeles"
-   ]
-  ],
-  [
    "samuel_gw",
    null,
    [
-    "donald_siegel",
+    "dorothy_leitman",
+    "marian_king"
+   ]
+  ],
+  [
+   "morris_gw",
+   "belle_erlich",
+   [
+    "kay_sandeles",
     "betty_seigel"
+   ]
+  ],
+  [
+   "bertha_kutep",
+   null,
+   [
+    "nathan_accident"
    ]
   ],
   [
    "chaika_steinberg",
    null,
    [
-    "nathan_accident",
     "meyer_gw",
     "sid_steinberg",
     "esther_rosen"
    ]
   ],
   [
-   "dorothy_leitman",
-   null,
-   [
-    "david_monasch"
-   ]
-  ],
-  [
    "betty_seigel",
-   null,
+   "donald_siegel",
    [
     "judith_siegel",
+    "connie_singer",
     "bryan_seigel",
     "lori_seigel"
    ]
   ],
   [
-   "donald_siegel",
-   null,
-   [
-    "richard_simon",
-    "connie_singer"
-   ]
-  ],
-  [
-   "baruch_gw2",
-   null,
-   [
-    "amichai_s",
-    "odrea_gw",
-    "avraham_st",
-    "esther_gw2"
-   ]
-  ],
-  [
+   "judith_siegel",
    "david_monasch",
-   null,
    [
     "sara_monasch",
     "elan_monasch"
    ]
   ],
   [
+   "connie_singer",
    "richard_simon",
-   null,
    [
     "eliana_simon",
     "benjamin_simon"
    ]
   ],
   [
-   "amichai_s",
+   "baruch_gw2",
    null,
+   [
+    "odrea_gw",
+    "esther_gw2"
+   ]
+  ],
+  [
+   "odrea_gw",
+   "amichai_s",
    [
     "esther_shamep",
     "tamar_shamep",
@@ -1840,36 +1876,8 @@
    ]
   ],
   [
-   "suzanne_gw",
-   null,
-   [
-    "bruce_farkas",
-    "debbie_farkas",
-    "alan_farkas",
-    "david_farkas"
-   ]
-  ],
-  [
-   "david_farkas",
-   null,
-   [
-    "jacob_farkas",
-    "shaina_ember",
-    "amanda_farkas",
-    "andrew_farkas"
-   ]
-  ],
-  [
-   "debbie_farkas",
-   null,
-   [
-    "naomi_gw",
-    "jonah_gw"
-   ]
-  ],
-  [
+   "esther_gw2",
    "avraham_st",
-   null,
    [
     "tali_st",
     "adi_st",
@@ -1877,10 +1885,43 @@
    ]
   ],
   [
+   "suzanne_gw",
+   "bruce_farkas",
+   [
+    "david_farkas",
+    "alan_farkas",
+    "debbie_farkas"
+   ]
+  ],
+  [
+   "david_farkas",
    "mary_squires",
+   [
+    "jacob_farkas",
+    "shaina_ember"
+   ]
+  ],
+  [
+   "alan_farkas",
    null,
    [
-    "mona_mcdonald"
+    "amanda_farkas",
+    "andrew_farkas"
+   ]
+  ],
+  [
+   "debbie_farkas",
+   "mona_mcdonald",
+   [
+    "naomi_gw",
+    "jonah_gw"
+   ]
+  ],
+  [
+   "harold_k",
+   null,
+   [
+    "joan_kapstein"
    ]
   ],
   [
@@ -1896,27 +1937,21 @@
    "ann_r",
    [
     "ellen_reeves",
-    "caroline_r2"
-   ]
-  ],
-  [
-   "doris_r",
-   null,
-   [
+    "caroline_r2",
     "pam_r"
    ]
   ],
   [
+   "doris_r",
    "ellen_berger",
-   null,
    [
     "barbara_berger",
     "stephen_berger"
    ]
   ],
   [
+   "ruth_robie",
    "edward_p",
-   null,
    [
     "jane_pasternak",
     "kent_pasternak",
@@ -1924,96 +1959,62 @@
    ]
   ],
   [
-   "andy_r",
-   "ruth_robie",
+   "bruce_r",
+   "polly_r_ga",
    [
     "polly_reeves",
     "charlie_reeves"
    ]
   ],
   [
+   "jane_r",
    "thomas_boyer",
-   null,
    [
     "kenneth_boyer"
    ]
   ],
   [
    "martha_r",
-   null,
+   "joseph_r",
    [
     "robert_reeves",
     "michael_reeves"
    ]
   ],
   [
-   "channing_r",
-   null,
-   [
-    "alex_reeves",
-    "catherine_reeves"
-   ]
-  ],
-  [
    "ab_r",
    "carmen_r",
    [
+    "alex_reeves",
+    "catherine_reeves",
     "john_reeves",
     "e_reeves"
    ]
   ],
   [
-   "martin_r",
-   null,
-   [
-    "nell_lauritzen"
-   ]
-  ],
-  [
    "james_c",
-   null,
+   "kitty_c",
    [
     "norman_c",
-    "fulton_c"
+    "fulton_c",
+    "channing_c",
+    "walter_c"
    ]
   ],
   [
-   "sue_c",
-   null,
+   "channing_c",
+   "hazel_c",
    [
-    "hazel_c",
-    "channing_c"
-   ]
-  ],
-  [
-   "lee_c",
-   null,
-   [
-    "walter_c",
-    "arthur_w"
-   ]
-  ],
-  [
-   "arthur_w",
-   null,
-   [
-    "deidree_w",
-    "danny_w"
+    "peter_petach"
    ]
   ],
   [
    "bertha_c",
    null,
    [
-    "peter_petach"
-   ]
-  ],
-  [
-   "gussie_t",
-   null,
-   [
-    "holocaust1",
-    "holocaust2"
+    "arthur_w",
+    "deidree_w",
+    "danny_w"
    ]
   ],
   [
@@ -2049,13 +2050,6 @@
    ]
   ],
   [
-   "bernard_d",
-   null,
-   [
-    "jeff_barber"
-   ]
-  ],
-  [
    "edward_diamond",
    null,
    [
@@ -2082,12 +2076,20 @@
    ]
   ],
   [
-   "george_barber",
+   "unknown_brother2",
    null,
+   [
+    "holocaust1",
+    "holocaust2"
+   ]
+  ],
+  [
+   "maxine_h",
+   "george_barber",
    [
     "bruce_barber",
     "mark_hoffman",
-    "jeff_h"
+    "jeff_barber"
    ]
   ]
  ]

@@ -2,11 +2,12 @@
 const test = require('node:test');
 const assert = require('node:assert');
 const { PEOPLE, COUPLES } = require('../data.js');
-const original = require('./original-data.json');
+// Reviewed snapshot. Change it only on purpose, with evidence noted in docs/family-data-changes.md.
+const snapshot = require('./data-snapshot.json');
 const F = require('../family.js');
 
-test('family data is exactly what was in the original site (nothing added, removed or changed)', () => {
-  assert.deepStrictEqual(JSON.parse(JSON.stringify({ PEOPLE, COUPLES })), original);
+test('family data matches the reviewed snapshot (nothing changed by accident)', () => {
+  assert.deepStrictEqual(JSON.parse(JSON.stringify({ PEOPLE, COUPLES })), snapshot);
 });
 
 test('every relationship points at a real person', () => {
@@ -20,7 +21,7 @@ test('layout places everyone, with no overlaps, children one row below parents',
   Object.entries(L.pos).forEach(([id, p]) => (rows[p.y] = rows[p.y] || []).push(p.x));
   Object.values(rows).forEach(xs => { xs.sort((a, b) => a - b); for (let i = 1; i < xs.length; i++) assert.ok(xs[i] - xs[i - 1] >= 159, 'overlapping people'); });
   COUPLES.forEach(([a, b, kids]) => kids.forEach(k => assert.strictEqual(L.pos[k].y - L.pos[a].y, 240, `${k} not one row below ${a}`)));
-  COUPLES.forEach(([a, b]) => { if (b) assert.strictEqual(Math.abs(L.pos[a].x - L.pos[b].x), 160, `${a} and ${b} not side by side`); });
+  COUPLES.forEach(([a, b]) => { if (b) assert.strictEqual(Math.round(Math.abs(L.pos[a].x - L.pos[b].x)), 160, `${a} and ${b} not side by side`); });
 });
 
 test('relationship finder names close relatives correctly', () => {

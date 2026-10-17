@@ -11,7 +11,7 @@
   const color = id => `var(--b-${PEOPLE[id].branch}, #888)`;
   const titleCase = s => s.toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\b(1st|2nd|3rd)\b/gi, m => m.toLowerCase());
   const GEN_NAMES = { 0: "Max's generation", 1: "Parents' generation", 2: "Grandparents' generation", 3: "Great-grandparents' generation", 4: "2nd great-grandparents' generation", 5: "3rd great-grandparents' generation" };
-  const BRANCH_LABEL = { center: 'Max & siblings', gerald: 'Greenwald (Gerald & Gerrie)', greenwald: 'Greenwald (older)', weinhaus: 'Weinhaus', gervitz: 'Gervitz', kapstein: 'Kapstein', eisenberg: 'Eisenberg', hoffman: 'Hoffman', tolarsky: 'Tolarsky', bloom: 'Bloom', reeves: 'Reeves', cohens: 'Cohens' };
+  const BRANCH_LABEL = { center: 'Max & siblings', gerald: 'Greenwald (Gerald & Gigi)', greenwald: 'Greenwald (older)', weinhaus: 'Weinhaus', gervitz: 'Gervitz', kapstein: 'Kapstein', eisenberg: 'Eisenberg', hoffman: 'Hoffman', tolarsky: 'Tolarsky', bloom: 'Bloom', reeves: 'Reeves', cohens: 'Cohens' };
 
   $('#subtitle').textContent = `${ids.length} people · ${L.genKeys.length} generations`;
 

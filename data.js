@@ -35,7 +35,7 @@ const PEOPLE = {
 
   // === GEN 2 - Grandparents ===
   gerald: { name: 'Gerald Greenwald', initials: 'GG', rel: 'GRANDFATHER', branch: 'gerald', gender: 'M' },
-  gerrie: { name: 'Gerrie Greenwald', initials: 'GG', rel: 'GRANDMOTHER', branch: 'gerald', gender: 'F' },
+  gerrie: { name: 'Gigi Greenwald', initials: 'GG', rel: 'GRANDMOTHER', branch: 'gerald', gender: 'F' },
   murray: { name: 'Murray Hoffman', initials: 'MH', rel: 'GRANDFATHER', branch: 'hoffman', gender: 'M' },
   eleanor: { name: 'Eleanor Reeves', initials: 'ER', rel: 'GRANDMOTHER', branch: 'reeves', gender: 'F' },
 
@@ -43,12 +43,12 @@ const PEOPLE = {
   baruch_gw2: { name: 'Baruch Greenwald', initials: 'BG', rel: 'HALF GREAT UNCLE', branch: 'greenwald', gender: 'M' },
   suzanne_gw: { name: 'Suzanne Greenwald', initials: 'SG', rel: 'GREAT AUNT', branch: 'greenwald', gender: 'F' },
 
-  // Gerrie's siblings (children of Sidney & Sarah)
+  // Gigi's siblings (children of Sidney & Sarah)
   sally_gidden: { name: 'Sally Gidden', initials: 'SG', rel: 'GREAT AUNT/UNCLE', branch: 'gervitz', gender: 'F' },
-  joan_kapstein: { name: 'Joan Kapstein', initials: 'JK', rel: '1ST COUSIN', branch: 'gervitz', gender: 'F' },
+  joan_kapstein: { name: 'Joan Kapstein', initials: 'JK', rel: '1ST COUSIN TWICE REMOVED', branch: 'gervitz', gender: 'F' },
   shirley_roberts: { name: 'Shirley Hope Roberts (Cornwell)', initials: 'SR', rel: 'GREAT AUNT/UNCLE', branch: 'gervitz', gender: 'F' },
 
-  // Murray's siblings
+  // Husband of Murray's sister Maxine Hoffman
   george_barber: { name: 'George Barber', initials: 'GB', rel: 'RELATIVE', branch: 'hoffman', gender: 'M' },
 
 
@@ -73,12 +73,12 @@ const PEOPLE = {
   // Siblings of Leah Weinhaus (children of Gedalyah & Sonya)
   chaika_goldberg: { name: 'Chaika Goldberg', initials: 'CG', rel: '2ND GREAT AUNT/UNCLE', branch: 'weinhaus', gender: 'F' },
 
-  // Siblings of Sidney Gervitz (children of Sol & Fanny)
+  // Children of Max Kapstein & Rose Kapstein (siblings of Charles Moses Reeves)
   harold_k: { name: 'Harold Kapstein', initials: 'HK', rel: '2ND GREAT AUNT/UNCLE', branch: 'gervitz', gender: 'M' },
   sophie_k: { name: 'Sophie Kapstein', initials: 'SK', rel: '2ND GREAT AUNT', branch: 'gervitz', gender: 'F' },
   florence_r: { name: 'Florence Rappaport', initials: 'FR', rel: '2ND GREAT AUNT/UNCLE', branch: 'gervitz', gender: 'F' },
 
-  // Siblings of Charles Moses Reeves (children of Rose Kapstein)
+  // More children of Max Kapstein & Rose Kapstein
   edward_k: { name: 'Edward Kapstein', initials: 'EK', rel: '2ND GREAT AUNT/UNCLE', branch: 'kapstein', gender: 'M' },
   daniel_k: { name: 'Daniel Kapstein', initials: 'DK', rel: '2ND GREAT AUNT/UNCLE', branch: 'kapstein', gender: 'M' },
   evelyn_k: { name: 'Evelyn Kapstein', initials: 'EK', rel: '2ND GREAT AUNT/UNCLE', branch: 'kapstein', gender: 'F' },
@@ -120,7 +120,7 @@ const PEOPLE = {
   fanny_sol: { name: 'Fanny', initials: 'F', rel: '2ND GREAT-GRANDMOTHER', branch: 'gervitz', gender: 'F' },
   joseph_e: { name: 'Joseph Eisenberg', initials: 'JE', rel: '2ND GREAT-GRANDFATHER', branch: 'eisenberg', gender: 'M' },
   fanny_e: { name: 'Fanny Eisenberg', initials: 'FE', rel: '2ND GREAT-GRANDMOTHER', branch: 'eisenberg', gender: 'F' },
-  max_kapstein: { name: 'Max Kapstein', initials: 'MK', rel: '2ND GREAT-GRANDPARENT', branch: 'eisenberg', gender: 'M' },
+  max_kapstein: { name: 'Max Kapstein', initials: 'MK', rel: '2ND GREAT-GRANDFATHER', branch: 'eisenberg', gender: 'M' },
   benjamin_t: { name: 'Benjamin Tolarsky', initials: 'BT', rel: '2ND GREAT-GRANDFATHER', branch: 'tolarsky', gender: 'M' },
   esther_s: { name: 'Esther Steinman', initials: 'ES', rel: '2ND GREAT-GRANDMOTHER', branch: 'tolarsky', gender: 'F' },
   rose_kapstein: { name: 'Rose Kapstein', initials: 'RK', rel: '2ND GREAT-GRANDMOTHER', branch: 'kapstein', gender: 'F' },
@@ -148,12 +148,12 @@ const PEOPLE = {
   ann_r: { name: 'Ann Reeves', initials: 'AR', rel: 'RELATIVE', branch: 'reeves', gender: 'F' },
   doris_r: { name: 'Doris Reeves', initials: 'DR', rel: 'GREAT AUNT', branch: 'reeves', gender: 'F' },
   edward_p: { name: 'Edward Pasternak', initials: 'EP', rel: 'RELATIVE', branch: 'reeves', gender: 'M' },
-  ruth_robie: { name: 'Ruth Olive (Robie) Reeves', initials: 'RR', rel: 'RELATIVE', branch: 'reeves', gender: 'F' },
+  ruth_robie: { name: 'Ruth Olive (Robie) Reeves', initials: 'RR', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'F' },
   andy_r: { name: 'Andy Reeves', initials: 'AR', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'M' },
-  polly_r_ga: { name: 'Polly', initials: 'P', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'F' },
+  polly_r_ga: { name: 'Polly', initials: 'P', rel: 'RELATIVE', branch: 'reeves', gender: 'F' },
   bruce_r: { name: 'Bruce', initials: 'B', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'M' },
   thomas_boyer: { name: 'Thomas Boyer', initials: 'TB', rel: 'RELATIVE', branch: 'reeves', gender: 'M' },
-  jane_r: { name: 'Jane', initials: 'J', rel: 'RELATIVE', branch: 'reeves', gender: 'F' },
+  jane_r: { name: 'Jane', initials: 'J', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'F' },
   joseph_r: { name: 'Joseph', initials: 'J', rel: 'RELATIVE', branch: 'reeves', gender: 'M' },
   martha_r: { name: 'Martha Reeves', initials: 'MR', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'F' },
   channing_r: { name: 'Channing Reeves', initials: 'CR', rel: 'GREAT AUNT/UNCLE', branch: 'reeves', gender: 'M', notes: 'ex wife' },
@@ -168,32 +168,32 @@ const PEOPLE = {
   michael_baptista: { name: 'Michael Baptista', initials: 'MB', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
   ellen_reeves: { name: 'Ellen Reeves', initials: 'ER', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
   caroline_r2: { name: 'Caroline Reeves', initials: 'CR', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
-  pam_r: { name: 'Pam', initials: 'P', rel: 'ONCE REMOVED', branch: 'reeves', gender: 'F' },
+  pam_r: { name: 'Pam', initials: 'P', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
   barbara_berger: { name: 'Barbara Berger', initials: 'BB', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
   stephen_berger: { name: 'Stephen Berger', initials: 'SB', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
   jane_pasternak: { name: 'Jane Pasternak', initials: 'JP', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
   kent_pasternak: { name: 'Kent Pasternak', initials: 'KP', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
   scott_pasternak: { name: 'Scott Pasternak', initials: 'SP', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
   polly_reeves: { name: 'Polly Reeves', initials: 'PR', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
-  charlie_reeves: { name: 'Charlie Reeves', initials: 'CR', rel: 'ONCE REMOVED', branch: 'reeves', gender: 'M' },
+  charlie_reeves: { name: 'Charlie Reeves', initials: 'CR', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
   kenneth_boyer: { name: 'Kenneth Boyer', initials: 'KB', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
   robert_reeves: { name: 'Robert Reeves', initials: 'RR', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
-  michael_reeves: { name: 'Michael Reeves', initials: 'MR', rel: 'ONCE REMOVED', branch: 'reeves', gender: 'M' },
+  michael_reeves: { name: 'Michael Reeves', initials: 'MR', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
   alex_reeves: { name: 'Alex Reeves', initials: 'AR', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
   catherine_reeves: { name: 'Catherine Reeves', initials: 'CR', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
   john_reeves: { name: 'John Reeves', initials: 'JR', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'M' },
-  e_reeves: { name: 'E. Reeves', initials: 'ER', rel: '2ND COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
+  e_reeves: { name: 'E. Reeves', initials: 'ER', rel: '1ST COUSIN ONCE REMOVED', branch: 'reeves', gender: 'F' },
   nell_lauritzen: { name: 'Nell Lauritzen', initials: 'NL', rel: 'ONCE REMOVED', branch: 'reeves', gender: 'F' },
 
   // Cohens descendants
   norman_c: { name: 'Norman Cohens', initials: 'NC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
   fulton_c: { name: 'Fulton Cohens', initials: 'FC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M', notes: 'died young' },
   hazel_c: { name: 'Hazel', initials: 'H', rel: 'RELATIVE', branch: 'cohens', gender: 'F' },
-  channing_c: { name: 'Channing Cohens', initials: 'CC', rel: '2ND COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
+  channing_c: { name: 'Channing Cohens', initials: 'CC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
   walter_c: { name: 'Walter Cohens', initials: 'WC', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
   arthur_w: { name: 'Arthur Wiles', initials: 'AW', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
-  deidree_w: { name: 'Deidree Wiles', initials: 'DW', rel: '2ND COUSIN TWICE REMOVED', branch: 'cohens', gender: 'F' },
-  danny_w: { name: 'Danny', initials: 'D', rel: '2ND COUSIN', branch: 'cohens', gender: 'M' },
+  deidree_w: { name: 'Deidree Wiles', initials: 'DW', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'F' },
+  danny_w: { name: 'Danny', initials: 'D', rel: '1ST COUSIN TWICE REMOVED', branch: 'cohens', gender: 'M' },
   peter_petach: { name: 'Peter Petach', initials: 'PP', rel: '2ND COUSIN ONCE REMOVED', branch: 'cohens', gender: 'M' },
 
   // Morris Greenwald descendants
@@ -277,11 +277,14 @@ const PEOPLE = {
   wesley_gard: { name: 'Wesley Gardenschwartz', initials: 'WG', rel: '2ND COUSIN ONCE REMOVED', branch: 'bloom', gender: 'M' },
 
   // Hoffman extended
+  maxine_h: { name: 'Maxine Hoffman', initials: 'MH', rel: 'GREAT AUNT/UNCLE', branch: 'hoffman', gender: 'F' },
   bruce_barber: { name: 'Bruce Barber', initials: 'BB', rel: '1ST COUSIN ONCE REMOVED', branch: 'hoffman', gender: 'M' },
   mark_hoffman: { name: 'Mark Hoffman', initials: 'MH', rel: '1ST COUSIN ONCE REMOVED', branch: 'hoffman', gender: 'M' },
   jeff_h: { name: 'Jeff', initials: 'J', rel: '2ND COUSIN ONCE REMOVED', branch: 'hoffman', gender: 'M' },
 };
 
+// Links checked against Max's 23andMe tree screenshots (Oct 2026).
+// [S1]..[S6] = the six screenshots, listed in docs/family-data-changes.md.
 const COUPLES = [
   // Gen 0
   ['bradley', 'mother', ['max', 'oliver', 'grace']],
@@ -289,85 +292,88 @@ const COUPLES = [
   ['stacey_gw', null, ['ruthie_gg', 'henry_gg']],
   ['joshua_gw', null, ['amelia_gw', 'lila_gw']],
   ['scott_gw', 'julie_gw', ['brandon_gw', 'carter_gw', 'isabella_gw']],
-  ['hugh_h', null, ['emma_h', 'greta_h']],
-  ['eric_h', null, ['isabella_h', 'elana_h']],
+  ['hugh_h', null, ['emma_h', 'greta_h', 'isabella_h']], // [S3] Isabella is Hugh's (other partner)
+  ['eric_h', null, ['elana_h']], // [S3]
   // Gen 2
   ['gerald', 'gerrie', ['stacey_gw', 'joshua_gw', 'scott_gw', 'bradley']],
-  ['murray', 'eleanor', ['mother', 'hugh_h', 'eric_h']],
+  ['murray', 'eleanor', ['mother', 'hugh_h']], // [S3]
+  ['murray', null, ['eric_h']], // [S3] Eric is from Murray's other marriage (half uncle)
   // Gen 3
-  ['frank_gw', 'leah_w', ['baruch_gw2', 'suzanne_gw', 'gerald']],
-  ['sidney_g', 'sarah_e', ['sally_gidden', 'joan_kapstein', 'shirley_roberts', 'gerrie']],
-  ['herschel_h', 'rose_t', ['murray', 'george_barber']],
-  ['charles_r', 'minnie_c', ['norma_r', 'william_r', 'doris_r', 'eleanor', 'polly_r_ga', 'bruce_r', 'martha_r', 'channing_r', 'ab_r']],
+  ['frank_gw', 'leah_w', ['suzanne_gw', 'gerald']], // [S5]
+  ['frank_gw', null, ['baruch_gw2']], // [S5] Baruch's mother is Bertha Ketay, not Leah (half great-uncle)
+  ['sidney_g', 'sarah_e', ['sally_gidden', 'gerrie']], // [S2]
+  ['herschel_h', 'rose_t', ['murray', 'maxine_h']], // [S3]
+  ['charles_r', 'minnie_c', ['shirley_roberts', 'eleanor', 'norma_r', 'william_r', 'doris_r', 'ruth_robie', 'bruce_r', 'jane_r', 'martha_r', 'channing_r', 'ab_r']], // [S6][S1][S3][S2]
   // Gen 4
-  ['boruch_gw', 'keila_f', ['samuel_gw', 'morris_gw', 'frank_gw', 'bertha_kutep', 'chaika_steinberg', 'bluma_gw']],
+  ['boruch_gw', 'keila_f', ['samuel_gw', 'morris_gw', 'frank_gw', 'bertha_kutep', 'chaika_steinberg', 'bluma_gw']], // [S4][S5]
   ['gedalyah_w', 'sonya_k', ['chaika_goldberg', 'leah_w']],
-  ['sol', 'fanny_sol', ['sidney_g', 'harold_k', 'sophie_k', 'florence_r']],
-  ['joseph_e', 'fanny_e', ['sarah_e']],
+  ['sol', 'fanny_sol', ['sidney_g']], // [S2]
+  ['joseph_e', 'fanny_e', ['sarah_e']], // [S2]
+  ['max_kapstein', 'rose_kapstein', ['harold_k', 'sophie_k', 'florence_r', 'edward_k', 'daniel_k', 'evelyn_k', 'milton_k', 'irving_k', 'sidney_k', 'dorothy_k', 'stevens_k', 'charles_r']], // [S2][S6]
   ['benjamin_t', 'esther_s', ['gussie_t', 'becky_t', 'harry_t', 'sam_t', 'minnie_t', 'rose_t', 'shirley_t']],
-  ['samuel_c', 'celia_c', ['james_c', 'kitty_c', 'sue_c', 'lee_c', 'bertha_c', 'ruth_c', 'minnie_c']],
+  ['samuel_c', 'celia_c', ['james_c', 'sue_c', 'lee_c', 'bertha_c', 'ruth_c', 'minnie_c']], // [S1][S3] Kitty is James's wife
   ['will_bloom', 'shirley_t', ['marian_goldman', 'broome_bloom', 'bernita_bloom', 'eve_bloom', 'esta_bloom']],
-  ['abraham_k', 'dora_l', ['sol', 'rose_kapstein']],
+  ['abraham_k', 'dora_l', ['max_kapstein']], // [S2]
   // Gen 5
-  ['max_shamep', 's_shapira', ['boruch_gw']],
-  ['israel_w', 'mamceia_r', ['gedalyah_w']],
+  ['max_shamep', 's_shapira', ['boruch_gw']], // [S4]
+  ['pinchas_f', null, ['keila_f', 'chaim_furer']], // [S4]
+  ['chaim_tish', null, ['sonya_k']], // [S4][S5]
+  ['israel_w', 'mamceia_r', ['gedalyah_w']], // [S5]
 
   // === EXTENDED FAMILY CONNECTIONS ===
 
-  // Morris Greenwald descendants
-  ['morris_gw', 'belle_erlich', ['dorothy_leitman', 'marian_king', 'kay_sandeles']],
-  ['samuel_gw', null, ['donald_siegel', 'betty_seigel']],
-  ['chaika_steinberg', null, ['nathan_accident', 'meyer_gw', 'sid_steinberg', 'esther_rosen']],
-  ['dorothy_leitman', null, ['david_monasch']],
-  ['betty_seigel', null, ['judith_siegel', 'bryan_seigel', 'lori_seigel']],
-  ['donald_siegel', null, ['richard_simon', 'connie_singer']],
-  ['baruch_gw2', null, ['amichai_s', 'odrea_gw', 'avraham_st', 'esther_gw2']],
-  ['david_monasch', null, ['sara_monasch', 'elan_monasch']],
-  ['richard_simon', null, ['eliana_simon', 'benjamin_simon']],
-  ['amichai_s', null, ['esther_shamep', 'tamar_shamep', 'haim_shamep']],
+  // Boruch Greenwald's grandchildren and on [S4]
+  ['samuel_gw', null, ['dorothy_leitman', 'marian_king']],
+  ['morris_gw', 'belle_erlich', ['kay_sandeles', 'betty_seigel']],
+  ['bertha_kutep', null, ['nathan_accident']],
+  ['chaika_steinberg', null, ['meyer_gw', 'sid_steinberg', 'esther_rosen']],
+  ['betty_seigel', 'donald_siegel', ['judith_siegel', 'connie_singer', 'bryan_seigel', 'lori_seigel']],
+  ['judith_siegel', 'david_monasch', ['sara_monasch', 'elan_monasch']],
+  ['connie_singer', 'richard_simon', ['eliana_simon', 'benjamin_simon']],
 
-  // Farkas / Suzanne descendants
-  ['suzanne_gw', null, ['bruce_farkas', 'debbie_farkas', 'alan_farkas', 'david_farkas']],
-  ['david_farkas', null, ['jacob_farkas', 'shaina_ember', 'amanda_farkas', 'andrew_farkas']],
-  ['debbie_farkas', null, ['naomi_gw', 'jonah_gw']],
-  ['avraham_st', null, ['tali_st', 'adi_st', 'shiri_st']],
-  ['mary_squires', null, ['mona_mcdonald']],
+  // Baruch Greenwald (Frank's son) [S4][S5]
+  ['baruch_gw2', null, ['odrea_gw', 'esther_gw2']],
+  ['odrea_gw', 'amichai_s', ['esther_shamep', 'tamar_shamep', 'haim_shamep']],
+  ['esther_gw2', 'avraham_st', ['tali_st', 'adi_st', 'shiri_st']],
 
-  // Reeves extended - connect some of the Reeves children to their kids
+  // Suzanne Greenwald & Bruce Farkas [S5]
+  ['suzanne_gw', 'bruce_farkas', ['david_farkas', 'alan_farkas', 'debbie_farkas']],
+  ['david_farkas', 'mary_squires', ['jacob_farkas', 'shaina_ember']],
+  ['alan_farkas', null, ['amanda_farkas', 'andrew_farkas']],
+  ['debbie_farkas', 'mona_mcdonald', ['naomi_gw', 'jonah_gw']],
+
+  // Kapstein [S2]
+  ['harold_k', null, ['joan_kapstein']],
+
+  // Reeves (Charles & Minnie's grandchildren) [S6][S1]
   ['norma_r', 'david_r', ['susan_baptista', 'michael_baptista']],
-  ['william_r', 'ann_r', ['ellen_reeves', 'caroline_r2']],
-  ['doris_r', null, ['pam_r']],
-  ['ellen_berger', null, ['barbara_berger', 'stephen_berger']],
-  ['edward_p', null, ['jane_pasternak', 'kent_pasternak', 'scott_pasternak']],
-  ['andy_r', 'ruth_robie', ['polly_reeves', 'charlie_reeves']],
-  ['thomas_boyer', null, ['kenneth_boyer']],
-  ['martha_r', null, ['robert_reeves', 'michael_reeves']],
-  ['channing_r', null, ['alex_reeves', 'catherine_reeves']],
-  ['ab_r', 'carmen_r', ['john_reeves', 'e_reeves']],
-  ['martin_r', null, ['nell_lauritzen']],
+  ['william_r', 'ann_r', ['ellen_reeves', 'caroline_r2', 'pam_r']],
+  ['doris_r', 'ellen_berger', ['barbara_berger', 'stephen_berger']],
+  ['ruth_robie', 'edward_p', ['jane_pasternak', 'kent_pasternak', 'scott_pasternak']],
+  ['bruce_r', 'polly_r_ga', ['polly_reeves', 'charlie_reeves']],
+  ['jane_r', 'thomas_boyer', ['kenneth_boyer']],
+  ['martha_r', 'joseph_r', ['robert_reeves', 'michael_reeves']],
+  ['ab_r', 'carmen_r', ['alex_reeves', 'catherine_reeves', 'john_reeves', 'e_reeves']],
 
-  // Cohens descendants
-  ['james_c', null, ['norman_c', 'fulton_c']],
-  ['sue_c', null, ['hazel_c', 'channing_c']],
-  ['lee_c', null, ['walter_c', 'arthur_w']],
-  ['arthur_w', null, ['deidree_w', 'danny_w']],
-  ['bertha_c', null, ['peter_petach']],
+  // Cohens descendants [S1][S3]
+  ['james_c', 'kitty_c', ['norman_c', 'fulton_c', 'channing_c', 'walter_c']],
+  ['channing_c', 'hazel_c', ['peter_petach']],
+  ['bertha_c', null, ['arthur_w', 'deidree_w', 'danny_w']],
 
-  // Tolarsky descendants
-  ['gussie_t', null, ['holocaust1', 'holocaust2']],
+  // Tolarsky descendants (not in the screenshots; unchanged)
   ['ira_diamond', null, ['bernard_d', 'edward_diamond']],
   ['harry_frincola', null, ['paul_frincola', 'lamont_f', 'yvonne_f']],
   ['becky_t', null, ['stanley_t']],
   ['minnie_t', null, ['bernie_f', 'marian_t']],
-  ['bernard_d', null, ['jeff_barber']],
   ['edward_diamond', null, ['felicia_diamond', 'steve_diamond']],
 
-  // Bloom descendants
+  // Bloom descendants (not in the screenshots; unchanged)
   ['nathan_gard', null, ['lee_gard', 'beth_gard', 'mary_gard', 'jill_gard']],
   ['bill_archibald', 'marsha_b', ['ian_gard', 'wesley_gard']],
 
-  // Hoffman extended
-  ['george_barber', null, ['bruce_barber', 'mark_hoffman', 'jeff_h']],
+  // Hoffman extended [S3]
+  ['unknown_brother2', null, ['holocaust1', 'holocaust2']],
+  ['maxine_h', 'george_barber', ['bruce_barber', 'mark_hoffman', 'jeff_barber']],
 ];
 
 if (typeof module !== 'undefined') module.exports = { PEOPLE, COUPLES };

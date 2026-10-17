@@ -14,7 +14,7 @@
     pinchas_f: ['keila_f', 1], chaim_furer: ['keila_f', 1], chaim_tish: ['keila_f', 1],
     edward_p: ['doris_r', 0], andy_r: ['doris_r', 0], thomas_boyer: ['polly_r_ga', 0],
     jane_r: ['bruce_r', 0], joseph_r: ['bruce_r', 0], martin_r: ['ab_r', 0], ellen_berger: ['doris_r', 0],
-    mary_squires: ['david_farkas', 0], bill_archibald: ['esta_bloom', 0], nathan_gard: ['marian_goldman', 0],
+    mary_squires: ['david_farkas', 0], nell_lauritzen: ['peter_petach', 0], bill_archibald: ['esta_bloom', 0], nathan_gard: ['marian_goldman', 0],
   };
   const BRANCH_ORDER = ['greenwald', 'weinhaus', 'gerald', 'center', 'gervitz', 'kapstein', 'eisenberg', 'hoffman', 'tolarsky', 'bloom', 'reeves', 'cohens'];
 
