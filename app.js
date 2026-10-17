@@ -195,6 +195,14 @@
     const strip = t => t.toLowerCase().replace(/-/g, ' ').replace(/\b(aunt\/uncle|aunt|uncle|grandparent|grandmother|grandfather|niece\/nephew|niece|nephew|half)\b/g, 'X').replace(/\s+/g, ' ').trim();
     return stored === 'RELATIVE' || strip(stored) !== strip(term);
   };
+  // Online sources (obituaries, Find a Grave, notices). Only http(s) URLs are rendered.
+  const safeUrl = u => /^https?:\/\//i.test(String(u || '')) ? String(u) : '';
+  function linksSection(p) {
+    const links = (p.links || []).filter(l => l && safeUrl(l.url));
+    const credit = p.photo && safeUrl(p.photoSource) ? `<p class="muted small photo-credit">Photo: <a href="${esc(p.photoSource)}" target="_blank" rel="noopener noreferrer">source</a></p>` : '';
+    if (!links.length) return credit;
+    return `<h3>Links</h3><ul class="links">${links.map(l => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l.label || l.url)}</a></li>`).join('')}</ul>${credit}`;
+  }
   function renderCard(id) {
     const p = PEOPLE[id];
     const rel = id === ME ? null : Family.describe(G, PEOPLE, ME, id);
@@ -211,6 +219,7 @@
       <dl class="facts">${facts.map(([a, b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join('')}</dl>
       ${group('Parents', G.parents[id])}${group(G.spouses[id].length > 1 ? 'Partners' : 'Partner', G.spouses[id])}
       ${group('Siblings', G.siblings[id])}${group('Children', G.children[id])}
+      ${linksSection(p)}
       ${!G.parents[id].length && !G.children[id].length && !G.spouses[id].length && !G.siblings[id].length ? '<p class="muted small">Not yet connected to anyone else in the tree.</p>' : ''}
       <div class="row">${id !== ME ? `<button class="btn primary small" data-rel="${id}">How is ${esc(p.name.split(' ')[0])} related to Max?</button>` : ''}<button class="btn small" data-share="${id}">Share</button></div>`;
   }

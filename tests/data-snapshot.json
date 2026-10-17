@@ -159,7 +159,21 @@
    "initials": "GG",
    "rel": "GRANDFATHER",
    "branch": "gerald",
-   "gender": "M"
+   "gender": "M",
+   "links": [
+    {
+     "label": "Profile (NNDB)",
+     "url": "https://www.nndb.com/people/846/000127465/"
+    },
+    {
+     "label": "Profile (Prabook)",
+     "url": "https://prabook.com/web/gerald.greenwald/1316209"
+    },
+    {
+     "label": "Bio (Greenbriar Equity Group)",
+     "url": "https://www.greenbriar.com/team-member/gerald-greenwald-chair/"
+    }
+   ]
   },
   "gerrie": {
    "name": "Gigi Greenwald",
@@ -173,14 +187,44 @@
    "initials": "MH",
    "rel": "GRANDFATHER",
    "branch": "hoffman",
-   "gender": "M"
+   "gender": "M",
+   "born": "Apr 15, 1924, Denver",
+   "died": "Mar 23, 2018",
+   "links": [
+    {
+     "label": "Obituary (Feldman Mortuary)",
+     "url": "https://feldmanmortuary.com/tribute/details/3471/Murray-Hoffman/obituary.html"
+    },
+    {
+     "label": "Obituary (Intermountain Jewish News)",
+     "url": "https://www.ijn.com/dr-murray-hoffman/"
+    },
+    {
+     "label": "Wedding notice: \"Eleanor Reeves Wed To Dr. M. S. Hoffman\", IJN, Dec 28, 1962",
+     "url": "https://www.coloradohistoricnewspapers.org/?a=d&d=IJN19621228-01.2.75"
+    }
+   ]
   },
   "eleanor": {
    "name": "Eleanor Reeves",
    "initials": "ER",
    "rel": "GRANDMOTHER",
    "branch": "reeves",
-   "gender": "F"
+   "gender": "F",
+   "links": [
+    {
+     "label": "Wedding notice: \"Eleanor Reeves Wed To Dr. M. S. Hoffman\", IJN, Dec 28, 1962",
+     "url": "https://www.coloradohistoricnewspapers.org/?a=d&d=IJN19621228-01.2.75"
+    },
+    {
+     "label": "Obituary (Feldman Mortuary)",
+     "url": "https://feldmanmortuary.com/tribute/details/3471/Murray-Hoffman/obituary.html"
+    },
+    {
+     "label": "Obituary of daughter Dorris (Reeves) Berger, 2016 (Brezniak)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/"
+    }
+   ]
   },
   "baruch_gw2": {
    "name": "Baruch Greenwald",
@@ -222,7 +266,21 @@
    "initials": "GB",
    "rel": "RELATIVE",
    "branch": "hoffman",
-   "gender": "M"
+   "gender": "M",
+   "born": "Nov 19, 1918, Denver",
+   "died": "Mar 26, 2012",
+   "photo": "photos/george_barber.jpg",
+   "photoSource": "https://feldmanmortuary.com/tribute/details/2305/Gerson-Barter/obituary.html",
+   "links": [
+    {
+     "label": "Obituary of Gerson Barter (Feldman Mortuary)",
+     "url": "https://feldmanmortuary.com/tribute/details/2305/Gerson-Barter/obituary.html"
+    },
+    {
+     "label": "Obituary of Gerson Barter (Intermountain Jewish News)",
+     "url": "https://www.ijn.com/gerson-barter/"
+    }
+   ]
   },
   "bertha_ketay": {
    "name": "Bertha Ketay",
@@ -236,14 +294,34 @@
    "initials": "FG",
    "rel": "GREAT-GRANDFATHER",
    "branch": "greenwald",
-   "gender": "M"
+   "gender": "M",
+   "links": [
+    {
+     "label": "Obituary of brother-in-law David Weinhaus, 2007 (St. Louis Jewish Light)",
+     "url": "https://stljewishlight.org/obituaries/in-memory-of-150/"
+    },
+    {
+     "label": "Son Gerald Greenwald profile (Prabook)",
+     "url": "https://prabook.com/web/gerald.greenwald/1316209"
+    }
+   ]
   },
   "leah_w": {
    "name": "Leah Weinhaus",
    "initials": "LW",
    "rel": "GREAT-GRANDMOTHER",
    "branch": "weinhaus",
-   "gender": "F"
+   "gender": "F",
+   "links": [
+    {
+     "label": "Obituary of brother David Weinhaus, 2007 (St. Louis Jewish Light)",
+     "url": "https://stljewishlight.org/obituaries/in-memory-of-150/"
+    },
+    {
+     "label": "Son Gerald Greenwald profile (Prabook)",
+     "url": "https://prabook.com/web/gerald.greenwald/1316209"
+    }
+   ]
   },
   "sidney_g": {
    "name": "Sidney Gervitz",
@@ -280,14 +358,38 @@
    "rel": "GREAT-GRANDFATHER",
    "branch": "reeves",
    "gender": "M",
-   "notes": "fka Kapstein"
+   "notes": "fka Kapstein",
+   "links": [
+    {
+     "label": "WWI Statement of Military Service: \"Kapstein, Charles Reeves\" (Rhode Island State Archives)",
+     "url": "https://sosri.access.preservica.com/uncategorized/IO_f42b9dbd-6f0c-42a3-b09c-0f3cc1f70ad4/"
+    },
+    {
+     "label": "Obituary of son Bruce Manning Reeves, 2024 (Central Maine)",
+     "url": "https://www.centralmaine.com/2024/09/24/obituarybruce-manning-reeves-2/"
+    },
+    {
+     "label": "Obituary of daughter Dorris (Reeves) Berger, 2016 (Brezniak)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/"
+    }
+   ]
   },
   "minnie_c": {
    "name": "Minnie Cohens",
    "initials": "MC",
    "rel": "GREAT-GRANDPARENT",
    "branch": "cohens",
-   "gender": "F"
+   "gender": "F",
+   "links": [
+    {
+     "label": "Obituary of son Bruce Manning Reeves, 2024 (Central Maine)",
+     "url": "https://www.centralmaine.com/2024/09/24/obituarybruce-manning-reeves-2/"
+    },
+    {
+     "label": "Obituary of daughter Dorris (Reeves) Berger, 2016 (Brezniak)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/"
+    }
+   ]
   },
   "samuel_gw": {
    "name": "Samuel Greenwald",
@@ -495,14 +597,42 @@
    "initials": "JC",
    "rel": "2ND GREAT AUNT/UNCLE",
    "branch": "cohens",
-   "gender": "M"
+   "gender": "M",
+   "born": "Sep 5, 1888",
+   "died": "Mar 13, 1963",
+   "links": [
+    {
+     "label": "Find a Grave: James Albert Cahners",
+     "url": "https://www.findagrave.com/memorial/50206663/james_albert-cahners"
+    },
+    {
+     "label": "Obituary of son Walter James Cahners, 2016 (Brezniak)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/"
+    },
+    {
+     "label": "Son Norman Cahners (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Norman_Cahners"
+    }
+   ]
   },
   "kitty_c": {
    "name": "Kitty Cohens",
    "initials": "KC",
    "rel": "RELATIVE",
    "branch": "cohens",
-   "gender": "F"
+   "gender": "F",
+   "born": "Jul 5, 1892",
+   "died": "Dec 31, 1964",
+   "links": [
+    {
+     "label": "Find a Grave: Katherine Louise Epstein Cahners",
+     "url": "https://www.findagrave.com/memorial/50205959/katherine_louise-cahners"
+    },
+    {
+     "label": "Obituary of son Walter James Cahners, 2016 (Brezniak)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/"
+    }
+   ]
   },
   "sue_c": {
    "name": "Sue Cohens",
@@ -559,14 +689,26 @@
    "rel": "2ND GREAT-GRANDFATHER",
    "branch": "weinhaus",
    "gender": "M",
-   "notes": "Philadelphia Cantor"
+   "notes": "Philadelphia Cantor",
+   "links": [
+    {
+     "label": "Obituary of son David Weinhaus, 2007 (St. Louis Jewish Light)",
+     "url": "https://stljewishlight.org/obituaries/in-memory-of-150/"
+    }
+   ]
   },
   "sonya_k": {
    "name": "Sonya Kaplan",
    "initials": "SK",
    "rel": "2ND GREAT-GRANDPARENT",
    "branch": "weinhaus",
-   "gender": "F"
+   "gender": "F",
+   "links": [
+    {
+     "label": "Obituary of son David Weinhaus, 2007 (St. Louis Jewish Light)",
+     "url": "https://stljewishlight.org/obituaries/in-memory-of-150/"
+    }
+   ]
   },
   "sol": {
    "name": "Sol",
@@ -741,7 +883,15 @@
    "initials": "DR",
    "rel": "GREAT AUNT",
    "branch": "reeves",
-   "gender": "F"
+   "gender": "F",
+   "born": "1926",
+   "died": "Dec 22, 2016",
+   "links": [
+    {
+     "label": "Obituary: Dorris (Reeves) Berger (Brezniak Funeral Directors)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/"
+    }
+   ]
   },
   "edward_p": {
    "name": "Edward Pasternak",
@@ -776,7 +926,19 @@
    "initials": "B",
    "rel": "GREAT AUNT/UNCLE",
    "branch": "reeves",
-   "gender": "M"
+   "gender": "M",
+   "photo": "photos/bruce_r.jpg",
+   "photoSource": "https://www.centralmaine.com/2024/09/24/obituarybruce-manning-reeves-2/",
+   "links": [
+    {
+     "label": "Obituary: Bruce Manning Reeves (Central Maine, Sep 24, 2024)",
+     "url": "https://www.centralmaine.com/2024/09/24/obituarybruce-manning-reeves-2/"
+    },
+    {
+     "label": "Obituary of daughter Dorris (Reeves) Berger, 2016 (Brezniak)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/dorris-reeves-berger/"
+    }
+   ]
   },
   "thomas_boyer": {
    "name": "Thomas Boyer",
@@ -994,7 +1156,29 @@
    "initials": "NC",
    "rel": "1ST COUSIN TWICE REMOVED",
    "branch": "cohens",
-   "gender": "M"
+   "gender": "M",
+   "born": "Jun 5, 1914, Bangor, Maine",
+   "died": "Mar 14, 1986",
+   "photo": "photos/norman_c.jpg",
+   "photoSource": "https://www.findagrave.com/memorial/50225333/norman-lee-cahners",
+   "links": [
+    {
+     "label": "Find a Grave: Norman Lee Cahners",
+     "url": "https://www.findagrave.com/memorial/50225333/norman-lee-cahners"
+    },
+    {
+     "label": "Norman Cahners (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Norman_Cahners"
+    },
+    {
+     "label": "Obituary (New York Times, Mar 18, 1986)",
+     "url": "https://www.nytimes.com/1986/03/18/obituaries/norman-l-cahners.html"
+    },
+    {
+     "label": "Obituary of brother Walter James Cahners (Brezniak)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/"
+    }
+   ]
   },
   "fulton_c": {
    "name": "Fulton Cohens",
@@ -1002,7 +1186,19 @@
    "rel": "1ST COUSIN TWICE REMOVED",
    "branch": "cohens",
    "gender": "M",
-   "notes": "died young"
+   "notes": "died young",
+   "born": "Jan 30, 1917",
+   "died": "Mar 15, 1966",
+   "links": [
+    {
+     "label": "Find a Grave: Fulton Irving Cahners",
+     "url": "https://www.findagrave.com/memorial/49878080/fulton_irving-cahners"
+    },
+    {
+     "label": "Obituary of brother Walter James Cahners (Brezniak)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/"
+    }
+   ]
   },
   "hazel_c": {
    "name": "Hazel",
@@ -1023,7 +1219,16 @@
    "initials": "WC",
    "rel": "1ST COUSIN TWICE REMOVED",
    "branch": "cohens",
-   "gender": "M"
+   "gender": "M",
+   "died": "Apr 11, 2016 (aged 90)",
+   "photo": "photos/walter_c.jpg",
+   "photoSource": "https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/",
+   "links": [
+    {
+     "label": "Obituary: Walter James Cahners (Brezniak Funeral Directors)",
+     "url": "https://brezniakfuneraldirectors.com/obituary-archive/walter-james-cahners/"
+    }
+   ]
   },
   "arthur_w": {
    "name": "Arthur Wiles",
@@ -1561,7 +1766,21 @@
    "initials": "MH",
    "rel": "GREAT AUNT/UNCLE",
    "branch": "hoffman",
-   "gender": "F"
+   "gender": "F",
+   "links": [
+    {
+     "label": "Obituary of husband Gerson Barter (Feldman Mortuary)",
+     "url": "https://feldmanmortuary.com/tribute/details/2305/Gerson-Barter/obituary.html"
+    },
+    {
+     "label": "Obituary of husband Gerson Barter (IJN)",
+     "url": "https://www.ijn.com/gerson-barter/"
+    },
+    {
+     "label": "Obituary of brother Murray Hoffman (Feldman Mortuary)",
+     "url": "https://feldmanmortuary.com/tribute/details/3471/Murray-Hoffman/obituary.html"
+    }
+   ]
   },
   "bruce_barber": {
    "name": "Bruce Barber",
