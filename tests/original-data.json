@@ -1,0 +1,2094 @@
+{
+ "PEOPLE": {
+  "max": {
+   "name": "Max Greenwald",
+   "initials": "MG",
+   "rel": "YOU",
+   "branch": "center",
+   "gender": "M"
+  },
+  "oliver": {
+   "name": "Oliver Greenwald",
+   "initials": "OG",
+   "rel": "BROTHER",
+   "branch": "center",
+   "gender": "M"
+  },
+  "grace": {
+   "name": "Grace Greenwald",
+   "initials": "GG",
+   "rel": "SISTER",
+   "branch": "center",
+   "gender": "F"
+  },
+  "bradley": {
+   "name": "Bradley Greenwald",
+   "initials": "BG",
+   "rel": "FATHER",
+   "branch": "gerald",
+   "gender": "M"
+  },
+  "mother": {
+   "name": "Rachel Hoffman",
+   "initials": "RH",
+   "rel": "MOTHER",
+   "branch": "hoffman",
+   "gender": "F"
+  },
+  "stacey_gw": {
+   "name": "Stacey Greenwald",
+   "initials": "SG",
+   "rel": "AUNT",
+   "branch": "gerald",
+   "gender": "F"
+  },
+  "joshua_gw": {
+   "name": "Joshua Greenwald",
+   "initials": "JG",
+   "rel": "UNCLE",
+   "branch": "gerald",
+   "gender": "M"
+  },
+  "scott_gw": {
+   "name": "Scott Greenwald",
+   "initials": "SG",
+   "rel": "UNCLE",
+   "branch": "gerald",
+   "gender": "M"
+  },
+  "julie_gw": {
+   "name": "Julie Greenwald",
+   "initials": "JG",
+   "rel": "RELATIVE",
+   "branch": "gerald",
+   "gender": "F"
+  },
+  "hugh_h": {
+   "name": "Hugh Hoffman",
+   "initials": "HH",
+   "rel": "AUNT/UNCLE",
+   "branch": "hoffman",
+   "gender": "M"
+  },
+  "eric_h": {
+   "name": "Eric Hoffman",
+   "initials": "EH",
+   "rel": "HALF AUNT/UNCLE",
+   "branch": "hoffman",
+   "gender": "M"
+  },
+  "ruthie_gg": {
+   "name": "Ruthie Mae Greenwald-Gallagher",
+   "initials": "RG",
+   "rel": "1ST COUSIN",
+   "branch": "gerald",
+   "gender": "F"
+  },
+  "henry_gg": {
+   "name": "Henry Greenwald-Gallagher",
+   "initials": "HG",
+   "rel": "1ST COUSIN",
+   "branch": "gerald",
+   "gender": "M"
+  },
+  "amelia_gw": {
+   "name": "Amelia Greenwald",
+   "initials": "AG",
+   "rel": "1ST COUSIN",
+   "branch": "gerald",
+   "gender": "F"
+  },
+  "lila_gw": {
+   "name": "Lila Greenwald",
+   "initials": "LG",
+   "rel": "1ST COUSIN",
+   "branch": "gerald",
+   "gender": "F"
+  },
+  "brandon_gw": {
+   "name": "Brandon Greenwald",
+   "initials": "BG",
+   "rel": "1ST COUSIN",
+   "branch": "gerald",
+   "gender": "M"
+  },
+  "carter_gw": {
+   "name": "Carter Greenwald",
+   "initials": "CG",
+   "rel": "1ST COUSIN",
+   "branch": "gerald",
+   "gender": "M"
+  },
+  "isabella_gw": {
+   "name": "Isabella Greenwald",
+   "initials": "IG",
+   "rel": "1ST COUSIN",
+   "branch": "gerald",
+   "gender": "F"
+  },
+  "emma_h": {
+   "name": "Emma Hoffman",
+   "initials": "EH",
+   "rel": "1ST COUSIN",
+   "branch": "hoffman",
+   "gender": "F"
+  },
+  "greta_h": {
+   "name": "Greta Hoffman",
+   "initials": "GH",
+   "rel": "1ST COUSIN",
+   "branch": "hoffman",
+   "gender": "F"
+  },
+  "isabella_h": {
+   "name": "Isabella Hoffman",
+   "initials": "IH",
+   "rel": "1ST COUSIN",
+   "branch": "hoffman",
+   "gender": "F"
+  },
+  "elana_h": {
+   "name": "Elana Hoffman",
+   "initials": "EH",
+   "rel": "HALF 1ST COUSIN",
+   "branch": "hoffman",
+   "gender": "F"
+  },
+  "gerald": {
+   "name": "Gerald Greenwald",
+   "initials": "GG",
+   "rel": "GRANDFATHER",
+   "branch": "gerald",
+   "gender": "M"
+  },
+  "gerrie": {
+   "name": "Gerrie Greenwald",
+   "initials": "GG",
+   "rel": "GRANDMOTHER",
+   "branch": "gerald",
+   "gender": "F"
+  },
+  "murray": {
+   "name": "Murray Hoffman",
+   "initials": "MH",
+   "rel": "GRANDFATHER",
+   "branch": "hoffman",
+   "gender": "M"
+  },
+  "eleanor": {
+   "name": "Eleanor Reeves",
+   "initials": "ER",
+   "rel": "GRANDMOTHER",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "baruch_gw2": {
+   "name": "Baruch Greenwald",
+   "initials": "BG",
+   "rel": "HALF GREAT UNCLE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "suzanne_gw": {
+   "name": "Suzanne Greenwald",
+   "initials": "SG",
+   "rel": "GREAT AUNT",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "sally_gidden": {
+   "name": "Sally Gidden",
+   "initials": "SG",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "gervitz",
+   "gender": "F"
+  },
+  "joan_kapstein": {
+   "name": "Joan Kapstein",
+   "initials": "JK",
+   "rel": "1ST COUSIN",
+   "branch": "gervitz",
+   "gender": "F"
+  },
+  "shirley_roberts": {
+   "name": "Shirley Hope Roberts (Cornwell)",
+   "initials": "SR",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "gervitz",
+   "gender": "F"
+  },
+  "george_barber": {
+   "name": "George Barber",
+   "initials": "GB",
+   "rel": "RELATIVE",
+   "branch": "hoffman",
+   "gender": "M"
+  },
+  "frank_gw": {
+   "name": "Frank Greenwald",
+   "initials": "FG",
+   "rel": "GREAT-GRANDFATHER",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "leah_w": {
+   "name": "Leah Weinhaus",
+   "initials": "LW",
+   "rel": "GREAT-GRANDMOTHER",
+   "branch": "weinhaus",
+   "gender": "F"
+  },
+  "sidney_g": {
+   "name": "Sidney Gervitz",
+   "initials": "SG",
+   "rel": "GREAT-GRANDFATHER",
+   "branch": "gervitz",
+   "gender": "M"
+  },
+  "sarah_e": {
+   "name": "Sarah Eisenberg",
+   "initials": "SE",
+   "rel": "GREAT-GRANDMOTHER",
+   "branch": "eisenberg",
+   "gender": "F"
+  },
+  "herschel_h": {
+   "name": "Herschel (Harry) Hoffman",
+   "initials": "HH",
+   "rel": "GREAT-GRANDFATHER",
+   "branch": "hoffman",
+   "gender": "M",
+   "notes": "Wolf/Hans Ruth"
+  },
+  "rose_t": {
+   "name": "Rose Tolarsky",
+   "initials": "RT",
+   "rel": "GREAT-GRANDPARENT",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "charles_r": {
+   "name": "Charles Moses Reeves",
+   "initials": "CR",
+   "rel": "GREAT-GRANDFATHER",
+   "branch": "reeves",
+   "gender": "M",
+   "notes": "fka Kapstein"
+  },
+  "minnie_c": {
+   "name": "Minnie Cohens",
+   "initials": "MC",
+   "rel": "GREAT-GRANDPARENT",
+   "branch": "cohens",
+   "gender": "F"
+  },
+  "samuel_gw": {
+   "name": "Samuel Greenwald",
+   "initials": "SG",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "morris_gw": {
+   "name": "Morris (Moishe) Greenwald",
+   "initials": "MG",
+   "rel": "2ND GREAT UNCLE",
+   "branch": "greenwald",
+   "gender": "M",
+   "notes": "Grinvald"
+  },
+  "belle_erlich": {
+   "name": "Belle Erlich",
+   "initials": "BE",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "bertha_kutep": {
+   "name": "Bertha Kutep",
+   "initials": "BK",
+   "rel": "2ND GREAT AUNT",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "chaika_steinberg": {
+   "name": "Chaika Steinberg",
+   "initials": "CS",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "bluma_gw": {
+   "name": "Bluma Greenwald",
+   "initials": "BG",
+   "rel": "2ND GREAT AUNT",
+   "branch": "greenwald",
+   "gender": "F",
+   "notes": "never wed"
+  },
+  "chaika_goldberg": {
+   "name": "Chaika Goldberg",
+   "initials": "CG",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "weinhaus",
+   "gender": "F"
+  },
+  "harold_k": {
+   "name": "Harold Kapstein",
+   "initials": "HK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "gervitz",
+   "gender": "M"
+  },
+  "sophie_k": {
+   "name": "Sophie Kapstein",
+   "initials": "SK",
+   "rel": "2ND GREAT AUNT",
+   "branch": "gervitz",
+   "gender": "F"
+  },
+  "florence_r": {
+   "name": "Florence Rappaport",
+   "initials": "FR",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "gervitz",
+   "gender": "F"
+  },
+  "edward_k": {
+   "name": "Edward Kapstein",
+   "initials": "EK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "kapstein",
+   "gender": "M"
+  },
+  "daniel_k": {
+   "name": "Daniel Kapstein",
+   "initials": "DK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "kapstein",
+   "gender": "M"
+  },
+  "evelyn_k": {
+   "name": "Evelyn Kapstein",
+   "initials": "EK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "kapstein",
+   "gender": "F"
+  },
+  "milton_k": {
+   "name": "Milton Kapstein",
+   "initials": "MK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "kapstein",
+   "gender": "M"
+  },
+  "irving_k": {
+   "name": "Irving Kapstein",
+   "initials": "IK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "kapstein",
+   "gender": "M"
+  },
+  "sidney_k": {
+   "name": "Sidney Kapstein",
+   "initials": "SK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "kapstein",
+   "gender": "M"
+  },
+  "dorothy_k": {
+   "name": "Dorothy Kapstein",
+   "initials": "DK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "kapstein",
+   "gender": "F"
+  },
+  "stevens_k": {
+   "name": "Stevens Kapstein",
+   "initials": "SK",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "kapstein",
+   "gender": "M"
+  },
+  "unknown_brother1": {
+   "name": "Unknown Brother",
+   "initials": "U",
+   "rel": "2ND GREAT UNCLE",
+   "branch": "hoffman",
+   "gender": "M"
+  },
+  "unknown_brother2": {
+   "name": "Unknown Brother",
+   "initials": "U",
+   "rel": "2ND GREAT UNCLE",
+   "branch": "hoffman",
+   "gender": "M"
+  },
+  "gussie_t": {
+   "name": "Gussie Tolarsky",
+   "initials": "GT",
+   "rel": "2ND GREAT AUNT",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "becky_t": {
+   "name": "Becky Tolarsky",
+   "initials": "BT",
+   "rel": "2ND GREAT AUNT",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "harry_t": {
+   "name": "Harry Tolarsky",
+   "initials": "HT",
+   "rel": "2ND GREAT UNCLE",
+   "branch": "tolarsky",
+   "gender": "M",
+   "notes": "PTSD soldier"
+  },
+  "sam_t": {
+   "name": "Sam Tolarsky",
+   "initials": "ST",
+   "rel": "2ND GREAT UNCLE",
+   "branch": "tolarsky",
+   "gender": "M",
+   "notes": "unmarried"
+  },
+  "minnie_t": {
+   "name": "Minnie Tolarsky",
+   "initials": "MT",
+   "rel": "2ND GREAT AUNT",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "ira_diamond": {
+   "name": "Ira Diamond",
+   "initials": "ID",
+   "rel": "RELATIVE",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "harry_frincola": {
+   "name": "Harry Frincola",
+   "initials": "HF",
+   "rel": "RELATIVE",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "ed_glickman": {
+   "name": "Ed Glickman",
+   "initials": "EG",
+   "rel": "RELATIVE",
+   "branch": "tolarsky",
+   "gender": "M",
+   "notes": "first Glickman to emigrate"
+  },
+  "james_c": {
+   "name": "James Cohens",
+   "initials": "JC",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "kitty_c": {
+   "name": "Kitty Cohens",
+   "initials": "KC",
+   "rel": "RELATIVE",
+   "branch": "cohens",
+   "gender": "F"
+  },
+  "sue_c": {
+   "name": "Sue Cohens",
+   "initials": "SC",
+   "rel": "2ND GREAT AUNT",
+   "branch": "cohens",
+   "gender": "F"
+  },
+  "lee_c": {
+   "name": "Lee Cohens",
+   "initials": "LC",
+   "rel": "2ND GREAT UNCLE",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "milton_c": {
+   "name": "Milton",
+   "initials": "M",
+   "rel": "RELATIVE",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "bertha_c": {
+   "name": "Bertha Cohens",
+   "initials": "BC",
+   "rel": "2ND GREAT AUNT/UNCLE",
+   "branch": "cohens",
+   "gender": "F"
+  },
+  "ruth_c": {
+   "name": "Ruth Cohens",
+   "initials": "RC",
+   "rel": "2ND GREAT AUNT",
+   "branch": "cohens",
+   "gender": "F"
+  },
+  "boruch_gw": {
+   "name": "Boruch Greenwald (Grinvald)",
+   "initials": "BG",
+   "rel": "2ND GREAT-GRANDFATHER",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "keila_f": {
+   "name": "Keila (Kala) Furer",
+   "initials": "KF",
+   "rel": "2ND GREAT-GRANDMOTHER",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "gedalyah_w": {
+   "name": "Gedalyah Weinhaus",
+   "initials": "GW",
+   "rel": "2ND GREAT-GRANDFATHER",
+   "branch": "weinhaus",
+   "gender": "M",
+   "notes": "Philadelphia Cantor"
+  },
+  "sonya_k": {
+   "name": "Sonya Kaplan",
+   "initials": "SK",
+   "rel": "2ND GREAT-GRANDPARENT",
+   "branch": "weinhaus",
+   "gender": "F"
+  },
+  "sol": {
+   "name": "Sol",
+   "initials": "S",
+   "rel": "2ND GREAT-GRANDFATHER",
+   "branch": "gervitz",
+   "gender": "M"
+  },
+  "fanny_sol": {
+   "name": "Fanny",
+   "initials": "F",
+   "rel": "2ND GREAT-GRANDMOTHER",
+   "branch": "gervitz",
+   "gender": "F"
+  },
+  "joseph_e": {
+   "name": "Joseph Eisenberg",
+   "initials": "JE",
+   "rel": "2ND GREAT-GRANDFATHER",
+   "branch": "eisenberg",
+   "gender": "M"
+  },
+  "fanny_e": {
+   "name": "Fanny Eisenberg",
+   "initials": "FE",
+   "rel": "2ND GREAT-GRANDMOTHER",
+   "branch": "eisenberg",
+   "gender": "F"
+  },
+  "max_kapstein": {
+   "name": "Max Kapstein",
+   "initials": "MK",
+   "rel": "2ND GREAT-GRANDPARENT",
+   "branch": "eisenberg",
+   "gender": "M"
+  },
+  "benjamin_t": {
+   "name": "Benjamin Tolarsky",
+   "initials": "BT",
+   "rel": "2ND GREAT-GRANDFATHER",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "esther_s": {
+   "name": "Esther Steinman",
+   "initials": "ES",
+   "rel": "2ND GREAT-GRANDMOTHER",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "rose_kapstein": {
+   "name": "Rose Kapstein",
+   "initials": "RK",
+   "rel": "2ND GREAT-GRANDMOTHER",
+   "branch": "kapstein",
+   "gender": "F"
+  },
+  "samuel_c": {
+   "name": "Samuel Cohens",
+   "initials": "SC",
+   "rel": "2ND GREAT-GRANDFATHER",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "celia_c": {
+   "name": "Celia Cohens",
+   "initials": "CC",
+   "rel": "2ND GREAT-GRANDMOTHER",
+   "branch": "cohens",
+   "gender": "F"
+  },
+  "will_bloom": {
+   "name": "Will Bloom",
+   "initials": "WB",
+   "rel": "RELATIVE",
+   "branch": "bloom",
+   "gender": "M"
+  },
+  "shirley_t": {
+   "name": "Shirley Toursley",
+   "initials": "ST",
+   "rel": "2ND GREAT AUNT",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "max_shamep": {
+   "name": "Max Zelig Shamep",
+   "initials": "MS",
+   "rel": "3RD GREAT-GRANDPARENT",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "s_shapira": {
+   "name": "S. Shapira",
+   "initials": "S",
+   "rel": "3RD GREAT-GRANDPARENT",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "pinchas_f": {
+   "name": "Pinchas Furer",
+   "initials": "PF",
+   "rel": "3RD GREAT-GRANDPARENT",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "chaim_tish": {
+   "name": "Chaim Tish",
+   "initials": "CT",
+   "rel": "3RD GREAT-GRANDFATHER",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "chaim_furer": {
+   "name": "Chaim Furer",
+   "initials": "CF",
+   "rel": "3RD GREAT AUNT/UNCLE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "israel_w": {
+   "name": "Israel Weinhaus",
+   "initials": "IW",
+   "rel": "3RD GREAT-GRANDFATHER",
+   "branch": "weinhaus",
+   "gender": "M"
+  },
+  "mamceia_r": {
+   "name": "Mamceia Rushenson",
+   "initials": "MR",
+   "rel": "3RD GREAT-GRANDMOTHER",
+   "branch": "weinhaus",
+   "gender": "F"
+  },
+  "abraham_k": {
+   "name": "Abraham Kapstein",
+   "initials": "AK",
+   "rel": "3RD GREAT-GRANDPARENT",
+   "branch": "kapstein",
+   "gender": "M"
+  },
+  "dora_l": {
+   "name": "Dora Lieberman",
+   "initials": "DL",
+   "rel": "3RD GREAT-GRANDMOTHER",
+   "branch": "kapstein",
+   "gender": "F"
+  },
+  "norma_r": {
+   "name": "Norma Reeves",
+   "initials": "NR",
+   "rel": "GREAT AUNT",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "william_r": {
+   "name": "William (Billy) Reeves",
+   "initials": "WR",
+   "rel": "GREAT UNCLE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "ann_r": {
+   "name": "Ann Reeves",
+   "initials": "AR",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "doris_r": {
+   "name": "Doris Reeves",
+   "initials": "DR",
+   "rel": "GREAT AUNT",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "edward_p": {
+   "name": "Edward Pasternak",
+   "initials": "EP",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "ruth_robie": {
+   "name": "Ruth Olive (Robie) Reeves",
+   "initials": "RR",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "andy_r": {
+   "name": "Andy Reeves",
+   "initials": "AR",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "polly_r_ga": {
+   "name": "Polly",
+   "initials": "P",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "bruce_r": {
+   "name": "Bruce",
+   "initials": "B",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "thomas_boyer": {
+   "name": "Thomas Boyer",
+   "initials": "TB",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "jane_r": {
+   "name": "Jane",
+   "initials": "J",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "joseph_r": {
+   "name": "Joseph",
+   "initials": "J",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "martha_r": {
+   "name": "Martha Reeves",
+   "initials": "MR",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "channing_r": {
+   "name": "Channing Reeves",
+   "initials": "CR",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "reeves",
+   "gender": "M",
+   "notes": "ex wife"
+  },
+  "ab_r": {
+   "name": "A.B.",
+   "initials": "AB",
+   "rel": "GREAT UNCLE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "carmen_r": {
+   "name": "Carmen",
+   "initials": "C",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "martin_r": {
+   "name": "Martin Reeves",
+   "initials": "MR",
+   "rel": "GREAT AUNT/UNCLE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "ellen_berger": {
+   "name": "Ellen Berger",
+   "initials": "EB",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "david_r": {
+   "name": "David",
+   "initials": "D",
+   "rel": "RELATIVE",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "susan_baptista": {
+   "name": "Susan Baptista",
+   "initials": "SB",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "michael_baptista": {
+   "name": "Michael Baptista",
+   "initials": "MB",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "ellen_reeves": {
+   "name": "Ellen Reeves",
+   "initials": "ER",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "caroline_r2": {
+   "name": "Caroline Reeves",
+   "initials": "CR",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "pam_r": {
+   "name": "Pam",
+   "initials": "P",
+   "rel": "ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "barbara_berger": {
+   "name": "Barbara Berger",
+   "initials": "BB",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "stephen_berger": {
+   "name": "Stephen Berger",
+   "initials": "SB",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "jane_pasternak": {
+   "name": "Jane Pasternak",
+   "initials": "JP",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "kent_pasternak": {
+   "name": "Kent Pasternak",
+   "initials": "KP",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "scott_pasternak": {
+   "name": "Scott Pasternak",
+   "initials": "SP",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "polly_reeves": {
+   "name": "Polly Reeves",
+   "initials": "PR",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "charlie_reeves": {
+   "name": "Charlie Reeves",
+   "initials": "CR",
+   "rel": "ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "kenneth_boyer": {
+   "name": "Kenneth Boyer",
+   "initials": "KB",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "robert_reeves": {
+   "name": "Robert Reeves",
+   "initials": "RR",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "michael_reeves": {
+   "name": "Michael Reeves",
+   "initials": "MR",
+   "rel": "ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "alex_reeves": {
+   "name": "Alex Reeves",
+   "initials": "AR",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "catherine_reeves": {
+   "name": "Catherine Reeves",
+   "initials": "CR",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "john_reeves": {
+   "name": "John Reeves",
+   "initials": "JR",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "M"
+  },
+  "e_reeves": {
+   "name": "E. Reeves",
+   "initials": "ER",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "nell_lauritzen": {
+   "name": "Nell Lauritzen",
+   "initials": "NL",
+   "rel": "ONCE REMOVED",
+   "branch": "reeves",
+   "gender": "F"
+  },
+  "norman_c": {
+   "name": "Norman Cohens",
+   "initials": "NC",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "fulton_c": {
+   "name": "Fulton Cohens",
+   "initials": "FC",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "cohens",
+   "gender": "M",
+   "notes": "died young"
+  },
+  "hazel_c": {
+   "name": "Hazel",
+   "initials": "H",
+   "rel": "RELATIVE",
+   "branch": "cohens",
+   "gender": "F"
+  },
+  "channing_c": {
+   "name": "Channing Cohens",
+   "initials": "CC",
+   "rel": "2ND COUSIN TWICE REMOVED",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "walter_c": {
+   "name": "Walter Cohens",
+   "initials": "WC",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "arthur_w": {
+   "name": "Arthur Wiles",
+   "initials": "AW",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "deidree_w": {
+   "name": "Deidree Wiles",
+   "initials": "DW",
+   "rel": "2ND COUSIN TWICE REMOVED",
+   "branch": "cohens",
+   "gender": "F"
+  },
+  "danny_w": {
+   "name": "Danny",
+   "initials": "D",
+   "rel": "2ND COUSIN",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "peter_petach": {
+   "name": "Peter Petach",
+   "initials": "PP",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "cohens",
+   "gender": "M"
+  },
+  "dorothy_leitman": {
+   "name": "Dorothy Leitman",
+   "initials": "DL",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "marian_king": {
+   "name": "Marian King",
+   "initials": "MK",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "kay_sandeles": {
+   "name": "Kay Sandeles",
+   "initials": "KS",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "donald_siegel": {
+   "name": "Donald Siegel",
+   "initials": "DS",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "betty_seigel": {
+   "name": "Betty Seigel",
+   "initials": "BS",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "nathan_accident": {
+   "name": "Nathan",
+   "initials": "N",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "greenwald",
+   "gender": "M",
+   "notes": "early death by accident"
+  },
+  "meyer_gw": {
+   "name": "Meyer",
+   "initials": "M",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "sid_steinberg": {
+   "name": "Sid Steinberg",
+   "initials": "SS",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "esther_rosen": {
+   "name": "Esther Rosen",
+   "initials": "ER",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "david_monasch": {
+   "name": "David Monasch",
+   "initials": "DM",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "judith_siegel": {
+   "name": "Judith Lynn Siegel",
+   "initials": "JS",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "richard_simon": {
+   "name": "Richard Simon",
+   "initials": "RS",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "connie_singer": {
+   "name": "Connie Singer",
+   "initials": "CS",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "bryan_seigel": {
+   "name": "Bryan Keith Seigel",
+   "initials": "BS",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "lori_seigel": {
+   "name": "Lori Seigel",
+   "initials": "LS",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "amichai_s": {
+   "name": "Amichai Shainap",
+   "initials": "AS",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "odrea_gw": {
+   "name": "Odrea Greenwald",
+   "initials": "OG",
+   "rel": "HALF 1ST COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "sara_monasch": {
+   "name": "Sara Monasch",
+   "initials": "SM",
+   "rel": "3RD COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "elan_monasch": {
+   "name": "Elan Noah Monasch",
+   "initials": "EM",
+   "rel": "3RD COUSIN",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "eliana_simon": {
+   "name": "Eliana Belle Simon",
+   "initials": "ES",
+   "rel": "3RD COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "benjamin_simon": {
+   "name": "Benjamin Micah Simon",
+   "initials": "BS",
+   "rel": "3RD COUSIN",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "esther_shamep": {
+   "name": "Esther Shamep",
+   "initials": "ES",
+   "rel": "HALF 2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "tamar_shamep": {
+   "name": "Tamar Shamep",
+   "initials": "TS",
+   "rel": "HALF 2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "haim_shamep": {
+   "name": "Haim Shamep",
+   "initials": "HS",
+   "rel": "HALF 2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "bruce_farkas": {
+   "name": "Bruce Farkas",
+   "initials": "BF",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "debbie_farkas": {
+   "name": "Debbie Farkas",
+   "initials": "DF",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "alan_farkas": {
+   "name": "Alan Farkas",
+   "initials": "AF",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "david_farkas": {
+   "name": "David Farkas",
+   "initials": "DF",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "avraham_st": {
+   "name": "Avraham Steinmetz",
+   "initials": "AS",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "esther_gw2": {
+   "name": "Esther Greenwald",
+   "initials": "EG",
+   "rel": "HALF 1ST COUSIN ONCE REMOVED",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "mary_squires": {
+   "name": "Mary Squires",
+   "initials": "MS",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "mona_mcdonald": {
+   "name": "Mona McDonald",
+   "initials": "MM",
+   "rel": "RELATIVE",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "jacob_farkas": {
+   "name": "Jacob Farkas",
+   "initials": "JF",
+   "rel": "2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "shaina_ember": {
+   "name": "Shaina Ember",
+   "initials": "SE",
+   "rel": "2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "amanda_farkas": {
+   "name": "Amanda Farkas",
+   "initials": "AF",
+   "rel": "2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "andrew_farkas": {
+   "name": "Andrew Farkas",
+   "initials": "AF",
+   "rel": "2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "naomi_gw": {
+   "name": "Naomi",
+   "initials": "N",
+   "rel": "2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "jonah_gw": {
+   "name": "Jonah",
+   "initials": "J",
+   "rel": "2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "tali_st": {
+   "name": "Tali Steinmetz",
+   "initials": "TS",
+   "rel": "HALF 2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "adi_st": {
+   "name": "Adi Steinmetz",
+   "initials": "AS",
+   "rel": "HALF 2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "M"
+  },
+  "shiri_st": {
+   "name": "Shiri Steinmetz",
+   "initials": "SS",
+   "rel": "HALF 2ND COUSIN",
+   "branch": "greenwald",
+   "gender": "F"
+  },
+  "holocaust1": {
+   "name": "Holocaust Survivor",
+   "initials": "H",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "holocaust2": {
+   "name": "Holocaust Survivor 2",
+   "initials": "H",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "bernard_d": {
+   "name": "Bernard Diamond",
+   "initials": "BD",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "edward_diamond": {
+   "name": "Edward Diamond",
+   "initials": "ED",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "paul_frincola": {
+   "name": "Paul Frincola",
+   "initials": "PF",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "lamont_f": {
+   "name": "Lamont",
+   "initials": "L",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "yvonne_f": {
+   "name": "Yvonne",
+   "initials": "Y",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "stanley_t": {
+   "name": "Stanley",
+   "initials": "S",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "bernie_f": {
+   "name": "Bernie Frincola",
+   "initials": "BF",
+   "rel": "RELATIVE",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "marian_t": {
+   "name": "Marian",
+   "initials": "M",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "jeff_barber": {
+   "name": "Jeff Barber",
+   "initials": "JB",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "felicia_diamond": {
+   "name": "Felicia Diamond",
+   "initials": "FD",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "tolarsky",
+   "gender": "F"
+  },
+  "steve_diamond": {
+   "name": "Steve Diamond",
+   "initials": "SD",
+   "rel": "2ND COUSIN",
+   "branch": "tolarsky",
+   "gender": "M"
+  },
+  "marian_goldman": {
+   "name": "Marian Goldman",
+   "initials": "MG",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "bloom",
+   "gender": "F"
+  },
+  "broome_bloom": {
+   "name": "Broome Bloom",
+   "initials": "RB",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "bloom",
+   "gender": "M"
+  },
+  "bill_archibald": {
+   "name": "Bill Archibald",
+   "initials": "BA",
+   "rel": "RELATIVE",
+   "branch": "bloom",
+   "gender": "M"
+  },
+  "bernita_bloom": {
+   "name": "Bernita Bloom",
+   "initials": "BB",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "bloom",
+   "gender": "F"
+  },
+  "eve_bloom": {
+   "name": "Eve Bloom",
+   "initials": "EB",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "bloom",
+   "gender": "F"
+  },
+  "esta_bloom": {
+   "name": "Esta Bloom",
+   "initials": "EB",
+   "rel": "1ST COUSIN TWICE REMOVED",
+   "branch": "bloom",
+   "gender": "F"
+  },
+  "nathan_gard": {
+   "name": "Nathan Gardenschwartz (Dempsey)",
+   "initials": "NG",
+   "rel": "RELATIVE",
+   "branch": "bloom",
+   "gender": "M"
+  },
+  "marsha_b": {
+   "name": "Marsha",
+   "initials": "M",
+   "rel": "RELATIVE",
+   "branch": "bloom",
+   "gender": "F"
+  },
+  "lee_gard": {
+   "name": "Lee Gardenschwartz",
+   "initials": "LG",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "bloom",
+   "gender": "M"
+  },
+  "beth_gard": {
+   "name": "Beth Gardenschwartz",
+   "initials": "BG",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "bloom",
+   "gender": "F"
+  },
+  "mary_gard": {
+   "name": "Mary Gardenschwartz",
+   "initials": "MG",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "bloom",
+   "gender": "F"
+  },
+  "jill_gard": {
+   "name": "Jill Gardenschwartz",
+   "initials": "JG",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "bloom",
+   "gender": "F"
+  },
+  "ian_gard": {
+   "name": "Ian Gardenschwartz",
+   "initials": "IG",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "bloom",
+   "gender": "M"
+  },
+  "wesley_gard": {
+   "name": "Wesley Gardenschwartz",
+   "initials": "WG",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "bloom",
+   "gender": "M"
+  },
+  "bruce_barber": {
+   "name": "Bruce Barber",
+   "initials": "BB",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "hoffman",
+   "gender": "M"
+  },
+  "mark_hoffman": {
+   "name": "Mark Hoffman",
+   "initials": "MH",
+   "rel": "1ST COUSIN ONCE REMOVED",
+   "branch": "hoffman",
+   "gender": "M"
+  },
+  "jeff_h": {
+   "name": "Jeff",
+   "initials": "J",
+   "rel": "2ND COUSIN ONCE REMOVED",
+   "branch": "hoffman",
+   "gender": "M"
+  }
+ },
+ "COUPLES": [
+  [
+   "bradley",
+   "mother",
+   [
+    "max",
+    "oliver",
+    "grace"
+   ]
+  ],
+  [
+   "stacey_gw",
+   null,
+   [
+    "ruthie_gg",
+    "henry_gg"
+   ]
+  ],
+  [
+   "joshua_gw",
+   null,
+   [
+    "amelia_gw",
+    "lila_gw"
+   ]
+  ],
+  [
+   "scott_gw",
+   "julie_gw",
+   [
+    "brandon_gw",
+    "carter_gw",
+    "isabella_gw"
+   ]
+  ],
+  [
+   "hugh_h",
+   null,
+   [
+    "emma_h",
+    "greta_h"
+   ]
+  ],
+  [
+   "eric_h",
+   null,
+   [
+    "isabella_h",
+    "elana_h"
+   ]
+  ],
+  [
+   "gerald",
+   "gerrie",
+   [
+    "stacey_gw",
+    "joshua_gw",
+    "scott_gw",
+    "bradley"
+   ]
+  ],
+  [
+   "murray",
+   "eleanor",
+   [
+    "mother",
+    "hugh_h",
+    "eric_h"
+   ]
+  ],
+  [
+   "frank_gw",
+   "leah_w",
+   [
+    "baruch_gw2",
+    "suzanne_gw",
+    "gerald"
+   ]
+  ],
+  [
+   "sidney_g",
+   "sarah_e",
+   [
+    "sally_gidden",
+    "joan_kapstein",
+    "shirley_roberts",
+    "gerrie"
+   ]
+  ],
+  [
+   "herschel_h",
+   "rose_t",
+   [
+    "murray",
+    "george_barber"
+   ]
+  ],
+  [
+   "charles_r",
+   "minnie_c",
+   [
+    "norma_r",
+    "william_r",
+    "doris_r",
+    "eleanor",
+    "polly_r_ga",
+    "bruce_r",
+    "martha_r",
+    "channing_r",
+    "ab_r"
+   ]
+  ],
+  [
+   "boruch_gw",
+   "keila_f",
+   [
+    "samuel_gw",
+    "morris_gw",
+    "frank_gw",
+    "bertha_kutep",
+    "chaika_steinberg",
+    "bluma_gw"
+   ]
+  ],
+  [
+   "gedalyah_w",
+   "sonya_k",
+   [
+    "chaika_goldberg",
+    "leah_w"
+   ]
+  ],
+  [
+   "sol",
+   "fanny_sol",
+   [
+    "sidney_g",
+    "harold_k",
+    "sophie_k",
+    "florence_r"
+   ]
+  ],
+  [
+   "joseph_e",
+   "fanny_e",
+   [
+    "sarah_e"
+   ]
+  ],
+  [
+   "benjamin_t",
+   "esther_s",
+   [
+    "gussie_t",
+    "becky_t",
+    "harry_t",
+    "sam_t",
+    "minnie_t",
+    "rose_t",
+    "shirley_t"
+   ]
+  ],
+  [
+   "samuel_c",
+   "celia_c",
+   [
+    "james_c",
+    "kitty_c",
+    "sue_c",
+    "lee_c",
+    "bertha_c",
+    "ruth_c",
+    "minnie_c"
+   ]
+  ],
+  [
+   "will_bloom",
+   "shirley_t",
+   [
+    "marian_goldman",
+    "broome_bloom",
+    "bernita_bloom",
+    "eve_bloom",
+    "esta_bloom"
+   ]
+  ],
+  [
+   "abraham_k",
+   "dora_l",
+   [
+    "sol",
+    "rose_kapstein"
+   ]
+  ],
+  [
+   "max_shamep",
+   "s_shapira",
+   [
+    "boruch_gw"
+   ]
+  ],
+  [
+   "israel_w",
+   "mamceia_r",
+   [
+    "gedalyah_w"
+   ]
+  ],
+  [
+   "morris_gw",
+   "belle_erlich",
+   [
+    "dorothy_leitman",
+    "marian_king",
+    "kay_sandeles"
+   ]
+  ],
+  [
+   "samuel_gw",
+   null,
+   [
+    "donald_siegel",
+    "betty_seigel"
+   ]
+  ],
+  [
+   "chaika_steinberg",
+   null,
+   [
+    "nathan_accident",
+    "meyer_gw",
+    "sid_steinberg",
+    "esther_rosen"
+   ]
+  ],
+  [
+   "dorothy_leitman",
+   null,
+   [
+    "david_monasch"
+   ]
+  ],
+  [
+   "betty_seigel",
+   null,
+   [
+    "judith_siegel",
+    "bryan_seigel",
+    "lori_seigel"
+   ]
+  ],
+  [
+   "donald_siegel",
+   null,
+   [
+    "richard_simon",
+    "connie_singer"
+   ]
+  ],
+  [
+   "baruch_gw2",
+   null,
+   [
+    "amichai_s",
+    "odrea_gw",
+    "avraham_st",
+    "esther_gw2"
+   ]
+  ],
+  [
+   "david_monasch",
+   null,
+   [
+    "sara_monasch",
+    "elan_monasch"
+   ]
+  ],
+  [
+   "richard_simon",
+   null,
+   [
+    "eliana_simon",
+    "benjamin_simon"
+   ]
+  ],
+  [
+   "amichai_s",
+   null,
+   [
+    "esther_shamep",
+    "tamar_shamep",
+    "haim_shamep"
+   ]
+  ],
+  [
+   "suzanne_gw",
+   null,
+   [
+    "bruce_farkas",
+    "debbie_farkas",
+    "alan_farkas",
+    "david_farkas"
+   ]
+  ],
+  [
+   "david_farkas",
+   null,
+   [
+    "jacob_farkas",
+    "shaina_ember",
+    "amanda_farkas",
+    "andrew_farkas"
+   ]
+  ],
+  [
+   "debbie_farkas",
+   null,
+   [
+    "naomi_gw",
+    "jonah_gw"
+   ]
+  ],
+  [
+   "avraham_st",
+   null,
+   [
+    "tali_st",
+    "adi_st",
+    "shiri_st"
+   ]
+  ],
+  [
+   "mary_squires",
+   null,
+   [
+    "mona_mcdonald"
+   ]
+  ],
+  [
+   "norma_r",
+   "david_r",
+   [
+    "susan_baptista",
+    "michael_baptista"
+   ]
+  ],
+  [
+   "william_r",
+   "ann_r",
+   [
+    "ellen_reeves",
+    "caroline_r2"
+   ]
+  ],
+  [
+   "doris_r",
+   null,
+   [
+    "pam_r"
+   ]
+  ],
+  [
+   "ellen_berger",
+   null,
+   [
+    "barbara_berger",
+    "stephen_berger"
+   ]
+  ],
+  [
+   "edward_p",
+   null,
+   [
+    "jane_pasternak",
+    "kent_pasternak",
+    "scott_pasternak"
+   ]
+  ],
+  [
+   "andy_r",
+   "ruth_robie",
+   [
+    "polly_reeves",
+    "charlie_reeves"
+   ]
+  ],
+  [
+   "thomas_boyer",
+   null,
+   [
+    "kenneth_boyer"
+   ]
+  ],
+  [
+   "martha_r",
+   null,
+   [
+    "robert_reeves",
+    "michael_reeves"
+   ]
+  ],
+  [
+   "channing_r",
+   null,
+   [
+    "alex_reeves",
+    "catherine_reeves"
+   ]
+  ],
+  [
+   "ab_r",
+   "carmen_r",
+   [
+    "john_reeves",
+    "e_reeves"
+   ]
+  ],
+  [
+   "martin_r",
+   null,
+   [
+    "nell_lauritzen"
+   ]
+  ],
+  [
+   "james_c",
+   null,
+   [
+    "norman_c",
+    "fulton_c"
+   ]
+  ],
+  [
+   "sue_c",
+   null,
+   [
+    "hazel_c",
+    "channing_c"
+   ]
+  ],
+  [
+   "lee_c",
+   null,
+   [
+    "walter_c",
+    "arthur_w"
+   ]
+  ],
+  [
+   "arthur_w",
+   null,
+   [
+    "deidree_w",
+    "danny_w"
+   ]
+  ],
+  [
+   "bertha_c",
+   null,
+   [
+    "peter_petach"
+   ]
+  ],
+  [
+   "gussie_t",
+   null,
+   [
+    "holocaust1",
+    "holocaust2"
+   ]
+  ],
+  [
+   "ira_diamond",
+   null,
+   [
+    "bernard_d",
+    "edward_diamond"
+   ]
+  ],
+  [
+   "harry_frincola",
+   null,
+   [
+    "paul_frincola",
+    "lamont_f",
+    "yvonne_f"
+   ]
+  ],
+  [
+   "becky_t",
+   null,
+   [
+    "stanley_t"
+   ]
+  ],
+  [
+   "minnie_t",
+   null,
+   [
+    "bernie_f",
+    "marian_t"
+   ]
+  ],
+  [
+   "bernard_d",
+   null,
+   [
+    "jeff_barber"
+   ]
+  ],
+  [
+   "edward_diamond",
+   null,
+   [
+    "felicia_diamond",
+    "steve_diamond"
+   ]
+  ],
+  [
+   "nathan_gard",
+   null,
+   [
+    "lee_gard",
+    "beth_gard",
+    "mary_gard",
+    "jill_gard"
+   ]
+  ],
+  [
+   "bill_archibald",
+   "marsha_b",
+   [
+    "ian_gard",
+    "wesley_gard"
+   ]
+  ],
+  [
+   "george_barber",
+   null,
+   [
+    "bruce_barber",
+    "mark_hoffman",
+    "jeff_h"
+   ]
+  ]
+ ]
+}
